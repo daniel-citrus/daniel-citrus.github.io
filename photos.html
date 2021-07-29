@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="description" content="Daniel Calvo's About Me Website">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Daniel Calvo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+            function gallery_click(e) {
+                let isImage = (e.target.nodeName === "IMG");
+
+                if (isImage) {
+                    alert(e.target.alt);
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+               let gallery = document.querySelector("div.gallery");
+               gallery.addEventListener('click', gallery_click);
+            })
+        </script>
+
+        <title>Photos</title>
+    </head>
+    <body>
+        <nav class="top-nav">
+            <a aria-labelledby="Home page" href="index.html">Home</a>
+            <a aria-labelledby="About me page" href="about.html">About Me</a>
+            <a aria-labelledby="Photos page" href="photos.html">Photos</a>
+            <a aria-labelledby="Contact page" href="contact.html">Contact</a>
+        </nav>
+
+        <h1>Photos</h1>
+        <div class="gallery">
+            <img src="/photos/Lake Tahoe Emerald Bay.jpg" alt="Lake Tahoe Emerald Bay">
+            <div class="text">Lake Tahoe Emerald Bay</div>
+            <br>
+            <img src="/photos/Succulent.jpg" alt="Succulent plant">
+            <div class="text">Succulent</div>
+            <br>
+            <img src="/photos/Lolita.jpg" alt="Lolita the Chihuahua">
+            <div class="text">Lolita the Chihuahua</div>
+            <br>
+            <img src="/photos/Tacos.jpg" alt="Tacos Al Pastor">
+            <div class="text">Tacos Al Pastor</div>
+        </div>
+    </body>
+    <footer>
+        Powered by HTML, CSS, and Javascript.<br>
+        Designed and maintained by Daniel Calvo.
+    </footer>
+</html>

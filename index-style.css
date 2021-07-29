@@ -1,0 +1,46 @@
+.top-nav {
+    font-size: 20px;
+
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+
+a, .top-nav a {
+    color: #7aa6da;
+
+    border: 2px solid transparent;
+    padding: 0rem, 1rem, 0rem, 1rem;
+
+    transition: border .15s ease-in-out, color .15s ease-in-out;
+}
+
+a:hover, a:focus {
+    border: 2px solid orange;
+
+    color: orange;
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    font-family: Consolas,"courier new";
+    font-size: 30px;
+
+    margin: 15rem auto;
+    text-align: center;
+
+    background-color: #252525;
+}
+
+footer {
+    color: white;
+    font-size: 10px;
+
+    text-align: center;
+
+    padding: 10rem 0rem 1rem 0rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
