@@ -25,6 +25,23 @@
     margin-right: auto;
 }
 
+.github-link {
+    background-image: url(/media/GitHub-Mark-32px.png);
+    background-repeat: no-repeat;
+
+    background-size: 20px 20px;
+    padding-left: 25px;
+}
+
+.resume-link {
+    background-image: url(/media/resume-icon.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center;
+
+    padding: 0 0 0 20px;
+}
+
 .text {
     position: relative;
     top: 50%;
@@ -56,8 +73,8 @@ body {
     font-size: 15px;
 
     margin: 0 auto;
-    max-width: 1300px;
-    padding: 0 10px;
+    max-width: 1350px;
+    padding: 0 35px;
 
     background-color: #252525;
 }
