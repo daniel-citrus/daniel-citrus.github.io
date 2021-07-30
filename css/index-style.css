@@ -1,14 +1,7 @@
-.top-nav {
-    font-size: 20px;
-
-    padding: 0rem 0rem 1.5rem 0rem;
-}
-
-a, .top-nav a {
+a {
     color: #7aa6da;
 
     border: 2px solid transparent;
-    padding: 0rem, 1rem, 0rem, 1rem;
 
     transition: border .15s ease-in-out, color .15s ease-in-out;
 }
@@ -25,7 +18,7 @@ body {
     font-family: Consolas,"courier new";
     font-size: 30px;
 
-    margin: 15rem auto;
+    margin: 15rem 0 0 1rem;
     text-align: center;
 
     background-color: #252525;
@@ -37,10 +30,13 @@ footer {
 
     text-align: center;
 
-    padding: 10rem 0rem 1rem 0rem;
+    padding: 500px 0 100px 0;
 }
 
 ul {
     list-style-type: none;
+
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 0;
 }
