@@ -15,6 +15,13 @@
 
 .gallery {
     display: flex;
+    flex-flow: column wrap;
+}
+
+.gallery img {
+    max-width: 60%;
+    min-width: 400px;
+    height: auto;
 }
 
 .github-link {
