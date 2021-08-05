@@ -13,16 +13,15 @@
     overflow:hidden;
 }
 
+.gallery {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 .gallery img {
-    border-radius: 3px;
-    display: block;
-    position: static;
-
-    height: 40rem;
-    max-width: 100%;
-
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 60%;
+    min-width: 400px;
+    height: auto;
 }
 
 .github-link {
@@ -39,7 +38,7 @@
     background-size: 20px 20px;
     background-position: left center;
 
-    padding: 0 0 0 20px;
+    padding-left: 20px;
 }
 
 .text {
