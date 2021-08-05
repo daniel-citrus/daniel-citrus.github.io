@@ -13,16 +13,8 @@
     overflow:hidden;
 }
 
-.gallery img {
-    border-radius: 3px;
-    display: block;
-    position: static;
-
-    height: 40rem;
-    max-width: 100%;
-
-    margin-left: auto;
-    margin-right: auto;
+.gallery {
+    display: flex;
 }
 
 .github-link {
