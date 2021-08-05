@@ -3,9 +3,15 @@
 }
 
 #money_saver, #pushups_gif {
-    max-width: 60%;
-    min-width: 300px;
+    width: 400px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
 }
 
 .container {
@@ -16,10 +22,11 @@
 .gallery {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
 }
 
 .gallery img {
-    max-width: 60%;
+    max-width: 100%;
     min-width: 400px;
     height: auto;
 }
@@ -30,6 +37,12 @@
 
     background-size: 20px 20px;
     padding-left: 25px;
+}
+
+.left-col {
+    float: left;
+    margin-left: 0;
+    max-width: 630px;
 }
 
 .resume-link {
@@ -95,6 +108,10 @@ h1 {
    text-align: center;
 }
 
+h3{
+    padding: 10px 0 0 0;
+}
+
 h2 {
    text-align: left;
    border-bottom: 1px solid #4D4F4D;
@@ -111,19 +128,4 @@ h4 {
 img {
     max-width: 100%;
     height: auto;
-}
-
-table {
-    table-layout: fixed;
-}
-
-td {
-    vertical-align: top;
-    width: 30%;
-}
-
-td img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
