@@ -5,9 +5,7 @@
 #money_saver, #pushups_gif {
     width: 400px;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: none;
 }
 
 #resume {
@@ -21,9 +19,11 @@
     text-align: center;
 }
 
-.container {
-    position:relative;
-    overflow:hidden;
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 .gallery {
@@ -46,12 +46,6 @@
     padding-left: 25px;
 }
 
-.left-col {
-    float: left;
-    margin-left: 0;
-    max-width: 630px;
-}
-
 .resume-link {
     background-image: url(/media/resume-icon.png);
     background-repeat: no-repeat;
@@ -59,6 +53,13 @@
     background-position: left center;
 
     padding-left: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .text {
