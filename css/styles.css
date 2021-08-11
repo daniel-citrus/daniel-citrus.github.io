@@ -8,6 +8,13 @@
     display: none;
 }
 
+#resume {
+    height: 1000px;
+    width: 1350px;
+    margin: 25px auto 0 auto;
+    border: none;
+}
+
 .center {
     text-align: center;
 }
@@ -26,7 +33,7 @@
 }
 
 .gallery img {
-    max-width: 100%;
+    max-width: 1350px;
     min-width: 400px;
     height: auto;
 }

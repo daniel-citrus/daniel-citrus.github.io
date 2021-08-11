@@ -14,15 +14,22 @@
             });
         </script>
 
+        <script>
+            // Focus on the first link after content is loaded.
+            document.addEventListener("DOMContentLoaded", () => {
+                document.getElementsByTagName('a')[0].focus();
+            })
+        </script>
+
         <title>Daniel's Webpage</title>
     </head>
     <body>
         <div class="main-menu" role="navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
+            <a tabindex="1" href="index.html">Home</a>
+            <a tabindex="2" href="about.html">About Me</a>
             <!-- <a href="photos.html">Photos</a> -->
-            <a class="resume-link" href="resume.html">Resume</a>
-            <a class="github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a></li>
+            <a tabindex="3" class="resume-link" href="resume.html">Resume</a>
+            <a tabindex="4" class="github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a></li>
             </div>
 
     </body>
