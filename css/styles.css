@@ -11,8 +11,8 @@
 }
 
 #resume {
-    height: 1000px;
-    width: 1350px;
+    height: 1400px;
+    width: 100%;
     margin: 25px auto 0 auto;
     border: none;
 }
@@ -21,9 +21,13 @@
     text-align: center;
 }
 
-.container {
-    position:relative;
-    overflow:hidden;
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 .gallery {
@@ -46,12 +50,6 @@
     padding-left: 25px;
 }
 
-.left-col {
-    float: left;
-    margin-left: 0;
-    max-width: 630px;
-}
-
 .resume-link {
     background-image: url(/media/resume-icon.png);
     background-repeat: no-repeat;
@@ -69,6 +67,7 @@
 .top-nav {
     font-size: 20px;
     margin: 5px 0 0 0;
+    padding: 0 0 25px 0;
 }
 
 a, .top-nav a {
@@ -104,7 +103,7 @@ footer {
 
     text-align: center;
 
-    padding: 10rem 0rem 1rem 0rem;
+    padding: 350px 0 10px 0;
 }
 
 h1, h2, h3, h4{
