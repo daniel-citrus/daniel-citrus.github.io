@@ -4,32 +4,41 @@
     text-align: center;
     margin: 80px auto 10px auto;
     width: 1350px;
-    border-right: solid 3px rgba(0,255,0,.75);
+    border-right: solid 2px rgba(255,165,0,.75);
     white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
+    overflow: hidden;
     font-size: 28px;
-    color: rgba(255,255,255,.70);
+    color: white;
 }
 
 /* Animation */
 #type-writer {
-  animation: animated-text 6s steps(38,end) 1s 1 normal both,
-             animated-cursor 600ms steps(38,end) infinite;
+  animation: animated-text 5.5s steps(38) 1s 1 normal both,
+             animated-cursor 500ms steps(38) infinite;
 }
 
 /* text animation */
 
 @keyframes animated-text{
-  from{width: 0;}
-  to{width: 640px;}
+  from {
+        width: 0;
+    }
+
+  to {
+        width: 640px;
+    }
 }
 
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
-  to{border-right-color: transparent;}
+  from {
+        border-right-color: rgba(255,165,0,.8);
+    }
+
+  to {
+        border-right-color: transparent;
+    }
 }
 
 a {
@@ -42,14 +51,14 @@ a {
 }
 
 a:hover, a:focus {
-    border: 2px solid orange;
+    border: 2px solid rgb(255, 165, 0);
     color: orange;
     text-decoration: none;
 }
 
 body {
     color: white;
-    font-family: Consolas,"courier new";
+    font-family: 'Source Code Pro', monospace;
     font-size: 30px;
 
     background-color: #252525;
@@ -61,7 +70,7 @@ footer {
 
     text-align: center;
 
-    padding: 500px 0 100px 0;
+    padding: 400px 0 100px 0;
 }
 
 .github-link {
