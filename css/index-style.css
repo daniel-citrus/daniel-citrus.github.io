@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-#type-writer {
+#typewriter {
     text-align: center;
     margin: 80px auto 10px auto;
     width: 1350px;
@@ -12,8 +12,8 @@
 }
 
 /* Animation */
-#type-writer {
-  animation: animated-text 5.5s steps(38) 1s 1 normal both,
+#typewriter {
+  animation: animated-text 2s steps(38) 1s 1 normal both,
              animated-cursor 500ms steps(38) infinite;
 }
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-#about-type-writer {
+#about-typewriter {
     text-align: center;
     margin: 80px auto 10px auto;
     width: 1350px;
@@ -9,19 +9,44 @@
     overflow: hidden;
     color: white;
     /* Animation */
-    animation:  animated-text 1.5s steps(8) 1s 1 normal both,
+    animation:  about-animated-text .5s steps(8) 1s normal both,
                 animated-cursor 500ms steps(8) infinite;
 }
 
 /* text animation */
 
-@keyframes animated-text{
+@keyframes about-animated-text{
   from {
         width: 0;
     }
 
   to {
-        width: 173px;
+        width: 185px;
+    }
+}
+
+#resume-typewriter {
+    text-align: center;
+    margin: 80px auto 10px auto;
+    width: 1350px;
+    border-right: solid 2px rgba(255,165,0,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    /* Animation */
+    animation:  resume-animated-text .3s steps(6) 1s normal both,
+                animated-cursor 500ms steps(6) infinite;
+}
+
+/* resume text animation */
+
+@keyframes resume-animated-text{
+  from {
+        width: 0;
+    }
+
+  to {
+        width: 140px;
     }
 }
 
