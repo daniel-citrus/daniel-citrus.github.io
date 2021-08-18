@@ -1,77 +1,38 @@
 <html>
-    <head>
-        <div id="libraries"></div>
-        <!-- Style Sheet -->
-        <link href="/css/styles.css" type="text/css" rel="stylesheet">
-        <!-- Loader -->
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            $(function(){
-                $("#top-nav").load("/includes/top-nav.html");
-                $("#libraries").load("/includes/libraries.html");
-            });
-        </script>
+    <scrip>
 
+    </scrip>
     <style>
-        h1 {
-            color: green;
+        .switch {
+            height: 40px;
+            width: 40px;
+            background-color: greenyellow;
+            border-radius: 50px;
+
+            margin: 7px 7px;
         }
-                
-        /* toggle in label designing */
-        .toggle {
-            position : relative ;
-            display : inline-block;
-            width : 70px;
-            height : 30px;
-            background-color: red;
-            border-radius: 20px;
-            border: 0px;
-        }
-                
-        /* After slide changes */
-        .toggle:after {
-            content: '';
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: gray;
-            top: 1px; 
-            left: 1px;
-            transition:  all 0.5s;
-        }
-                
-        /* Toggle text */
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-        }
-                
-        /* Checkbox checked effect */
-        .checkbox:checked + .toggle::after {
-            left : 49px; 
-        }
-                
-        /* Checkbox checked toggle label bg color */
-        .checkbox:checked + .toggle {
-            background-color: green;
-        }
-                
-        /* Checkbox vanished */
-        .checkbox { 
-            display : none;
+
+        .theme-switches {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+
+            height: 50px;
+            width: 125px;
+
+            background-color: purple;
+            
+            border-radius: 50px;
         }
     </style>
     </head>
 
     <body>
-        <div id="top-nav"></div>
-
-        <!-- Material switch -->
-        <div class="switch">
-            <input type="checkbox" id="switch" class="checkbox">
-            <label for="switch" class="toggle">
-            <p>Light    Dark</p>
+        <div class="theme-switches">
+            <div data-theme="light" class="switch" id="switch-1"></div>
+            <div data-theme="dark" class="switch" id="switch-2"></div>
         </div>
     </body>
 </html>
