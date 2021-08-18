@@ -21,19 +21,19 @@
         .toggle {
             position : relative ;
             display : inline-block;
-            width : 100px;
-            height : 52px;
+            width : 70px;
+            height : 30px;
             background-color: red;
-            border-radius: 30px;
-            border: 2px solid gray;
+            border-radius: 20px;
+            border: 0px;
         }
                 
         /* After slide changes */
         .toggle:after {
             content: '';
             position: absolute;
-            width: 50px;
-            height: 50px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             background-color: gray;
             top: 1px; 
@@ -69,8 +69,7 @@
 
         <!-- Material switch -->
         <div class="switch">
-            <input type="checkbox" id="switch"
-                    class="checkbox" />
+            <input type="checkbox" id="switch" class="checkbox">
             <label for="switch" class="toggle">
             <p>Light    Dark</p>
         </div>
