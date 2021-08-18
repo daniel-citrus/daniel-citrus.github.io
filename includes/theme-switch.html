@@ -1,18 +1,20 @@
 <html>
-    <scrip>
-
-    </scrip>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let sw = document.getElementById('theme-switch-orb');
+            sw.addEventListener('click', () => {
+                console.log(sw.checked);
+            })
+        })
+    </script>
     <style>
-        .switch {
-            height: 40px;
-            width: 40px;
-            background-color: greenyellow;
+        #theme-switch {
+            height: 50px;
+            width: 125px;
             border-radius: 50px;
-
-            margin: 7px 7px;
         }
 
-        .theme-switches {
+        #theme-switch-orb {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -21,18 +23,16 @@
 
             height: 50px;
             width: 125px;
+            border-radius: 50px;
 
             background-color: purple;
-            
-            border-radius: 50px;
         }
     </style>
     </head>
 
     <body>
-        <div class="theme-switches">
-            <div data-theme="light" class="switch" id="switch-1"></div>
-            <div data-theme="dark" class="switch" id="switch-2"></div>
+        <div id="theme-switch-orb">
+            <div id="theme-switch"></div>
         </div>
     </body>
 </html>
