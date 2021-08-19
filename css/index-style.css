@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-#typewriter {
+#home-typewriter {
     text-align: center;
     margin: 80px auto 10px auto;
     width: 1350px;
@@ -9,17 +9,14 @@
     overflow: hidden;
     font-size: 28px;
     color: white;
-}
 
-/* Animation */
-#typewriter {
-  animation: animated-text 2s steps(38) 1s 1 normal both,
-             animated-cursor 500ms steps(38) infinite;
+    animation:  home-animated-text 2s steps(38) 1s 1 normal both,
+                animated-cursor 500ms steps(38) infinite;
 }
 
 /* text animation */
 
-@keyframes animated-text{
+@keyframes home-animated-text{
   from {
         width: 0;
     }
@@ -29,7 +26,7 @@
     }
 }
 
-/* cursor animations */
+/* ~ cursor animations */
 
 @keyframes animated-cursor{
   from {
@@ -41,27 +38,11 @@
     }
 }
 
-a {
-    color: #7aa6da;
-
-    border: 2px solid transparent;
-    padding: 4px;
-
-    transition: border .15s ease-in-out, color .15s ease-in-out;
-}
 
 a:hover, a:focus {
     border: 2px solid rgb(255, 165, 0);
     color: orange;
     text-decoration: none;
-}
-
-body {
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
-
-    background-color: #252525;
 }
 
 footer {
@@ -70,10 +51,10 @@ footer {
 
     text-align: center;
 
-    padding: 400px 0 100px 0;
+    padding: 350px 0 100px 0;
 }
 
-.github-link {
+.home-github-link {
     background-image: url(/media/GitHub-Mark-32px.png);
     background-repeat: no-repeat;
     background-position: left center;
@@ -94,7 +75,7 @@ footer {
     padding: 150px 35px 0px 35px;
 }
 
-.resume-link {
+.home-resume-link {
     background-image: url(/media/resume-icon.png);
     background-repeat: no-repeat;
     background-size: 30px 30px;

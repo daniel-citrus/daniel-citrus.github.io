@@ -1,11 +1,27 @@
 <html>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            let sw = document.getElementById('theme-switch-orb');
+            let sw = document.getElementById('theme-switch');
+            
             sw.addEventListener('click', () => {
-                console.log(sw.checked);
+                if (sw.dataset.theme === 'light') {
+                    set_dark(sw);
+                }
+                else {
+                    set_light(sw);
+                }
+
+                console.log(sw.dataset.theme);
             })
         })
+
+        function set_light (theme_switch) {
+            theme_switch.dataset.theme = 'light';
+        }
+
+        function set_dark (theme_switch) {
+            theme_switch.dataset.theme = 'dark';
+        }
     </script>
     <style>
         #theme-switch {
@@ -32,7 +48,7 @@
 
     <body>
         <div id="theme-switch-orb">
-            <div id="theme-switch"></div>
+            <div data-theme="light" id="theme-switch"></div>
         </div>
     </body>
 </html>

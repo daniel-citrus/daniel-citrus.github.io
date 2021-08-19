@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+#home-typewriter {
+    text-align: center;
+    margin: 80px auto 10px auto;
+    width: 1350px;
+    border-right: solid 2px rgba(255,165,0,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 28px;
+    color: white;
+
+    animation:  home-animated-text 2s steps(38) 1s 1 normal both,
+                animated-cursor 500ms steps(38) infinite;
+}
+
 #about-typewriter {
     text-align: center;
     margin: 80px auto 10px auto;
@@ -8,21 +22,9 @@
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    /* Animation */
+
     animation:  about-animated-text .5s steps(8) 1s normal both,
                 animated-cursor 500ms steps(8) infinite;
-}
-
-/* text animation */
-
-@keyframes about-animated-text{
-  from {
-        width: 0;
-    }
-
-  to {
-        width: 185px;
-    }
 }
 
 #resume-typewriter {
@@ -33,12 +35,31 @@
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    /* Animation */
+
     animation:  resume-animated-text .3s steps(6) 1s normal both,
                 animated-cursor 500ms steps(6) infinite;
 }
 
-/* resume text animation */
+/* text animations */
+@keyframes home-animated-text{
+    from {
+          width: 0;
+      }
+  
+    to {
+          width: 640px;
+      }
+  }
+
+@keyframes about-animated-text{
+  from {
+        width: 0;
+    }
+
+  to {
+        width: 185px;
+    }
+}
 
 @keyframes resume-animated-text{
   from {
@@ -110,6 +131,28 @@
     padding-left: 25px;
 }
 
+.home-body {
+    font-size: 30px;
+}
+
+.home-github-link {
+    background-image: url(/media/GitHub-Mark-32px.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 27px 27px;
+    
+    padding-left: 35px;
+}
+
+.home-resume-link {
+    background-image: url(/media/resume-icon.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: left center;
+    
+    padding-left: 32px;
+}
+
 .resume-link {
     background-image: url(/media/resume-icon.png);
     background-repeat: no-repeat;
@@ -117,10 +160,6 @@
     background-position: left center;
 
     padding-left: 20px;
-}
-
-.round {
-
 }
 
 .switch {
@@ -142,7 +181,19 @@
     padding: 0 0 25px 0;
 }
 
-a, .top-nav a {
+.main-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    list-style-type: none;
+
+    margin: 0 auto;
+    max-width: 1350px;
+    padding: 150px 35px 0px 35px;
+}
+
+a {
     color: #7aa6da;
 
     border: 2px solid transparent;
@@ -152,7 +203,6 @@ a, .top-nav a {
 
 a:hover, a:focus {
     border: 2px solid orange;
-
     color: orange;
     text-decoration: none;
 }
@@ -175,7 +225,7 @@ footer {
 
     text-align: center;
 
-    padding: 350px 0 40px 0;
+    margin: 350px auto 40px auto;
 }
 
 h1, h2, h3, h4{
