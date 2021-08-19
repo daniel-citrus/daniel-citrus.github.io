@@ -1,26 +1,34 @@
 <html>
+    <link href="/css/test.css" type="text/css" rel="stylesheet">
+    <link href="" type="text/css" rel="stylesheet" id="theme-switcher-id">
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            let sw = document.getElementById('theme-switch');
-            
-            sw.addEventListener('click', () => {
-                if (sw.dataset.theme === 'light') {
-                    set_dark(sw);
-                }
-                else {
-                    set_light(sw);
-                }
-
-                console.log(sw.dataset.theme);
-            })
+            initialize_theme_switch();
         })
 
-        function set_light (theme_switch) {
-            theme_switch.dataset.theme = 'light';
+        function initialize_theme_switch () {
+            let sw = document.getElementById('theme-switch');
+
+            if (get_local_style() === 'null') {
+                set_local_style('light');
+            }
+
+            sw.addEventListener('click', () => {
+                if (get_local_style() === 'light') {
+                    set_local_style('dark');
+                }
+                else {
+                    set_local_style('light');
+                }
+            })
         }
 
-        function set_dark (theme_switch) {
-            theme_switch.dataset.theme = 'dark';
+        function get_local_style() {
+            return localStorage.getItem('style');
+        }
+
+        function set_local_style(style) {
+            localStorage.setItem('style', style);
         }
     </script>
     <style>
@@ -44,11 +52,33 @@
             background-color: purple;
         }
     </style>
+    
+    <title>
+        Lorem Ipsum
+    </title>
+
     </head>
 
     <body>
         <div id="theme-switch-orb">
-            <div data-theme="light" id="theme-switch"></div>
+            <div id="theme-switch"></div>
+        </div>
+        <div id="lorem_ipsum">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit neque, elementum egestas congue id, semper id felis. Aenean egestas nunc vitae tellus rhoncus, sed ullamcorper justo facilisis. Morbi iaculis et purus ut condimentum. Nullam sollicitudin est sollicitudin magna fringilla, sit amet condimentum nisi maximus. Aliquam eu lobortis tellus. In hac habitasse platea dictumst. Suspendisse potenti. Duis tempus nunc nisi, ut vulputate lorem vulputate at. Donec dignissim velit erat, sit amet porta velit malesuada sit amet. Suspendisse quis ligula nec nunc interdum consequat. Nulla facilisi. Nunc ac tincidunt lorem, sit amet scelerisque sapien. Nulla fringilla auctor felis, a convallis elit egestas eget. 
+            </p>
+            <p>
+                Suspendisse vulputate ex vulputate nisl bibendum, eu semper mauris elementum. Praesent scelerisque, dolor ut ultricies tempor, ex est tempor nulla, id congue tellus urna ac velit. Duis in faucibus justo. Mauris vehicula non orci quis tincidunt. Nulla venenatis tellus in sapien blandit iaculis. Pellentesque felis libero, semper sed interdum eu, tristique et purus. Aenean vestibulum ante non mollis auctor. Duis viverra aliquam sem vitae condimentum. 
+            </p>
+            <p>
+                Duis id magna at mauris finibus dictum ut consequat tellus. Donec interdum felis at ullamcorper ullamcorper. Vestibulum felis sem, vehicula in odio in, volutpat faucibus dui. Cras sit amet nulla commodo, vestibulum nisi a, eleifend eros. Praesent nec velit suscipit, aliquam lacus id, vestibulum enim. Nulla ac porttitor nunc, vitae maximus turpis. Nunc molestie, turpis eget convallis convallis, lorem mauris tincidunt nisi, vitae imperdiet mauris libero id nunc. Integer vel nulla venenatis, eleifend dolor ac, lacinia odio. Nullam viverra elit ante, vel fringilla nisi pulvinar id. Praesent ornare erat semper, sollicitudin ligula a, mollis libero. Nulla tincidunt ante at magna sodales elementum. 
+            </p>
+            <p>
+                Curabitur et quam eget massa ultricies pulvinar. Aliquam id volutpat velit. Sed ut laoreet elit. Praesent sed urna vitae leo scelerisque luctus. Pellentesque et viverra purus. Maecenas consectetur malesuada leo a euismod. Aliquam at sapien mattis, rhoncus arcu in, tincidunt neque. Aenean eu sapien id sapien interdum dignissim sit amet in nisi. Donec ac orci hendrerit, tristique neque in, euismod ipsum. Vestibulum ac arcu orci. 
+            </p>
+            <p>
+                Maecenas venenatis lectus eu dui cursus tincidunt. Fusce maximus eros turpis, vel fringilla nunc rutrum at. Vivamus eget urna in enim dignissim gravida. Mauris a faucibus lacus. Fusce ligula ex, venenatis at urna vestibulum, commodo vulputate lacus. Sed dapibus magna vel sem porttitor vulputate. Morbi dignissim ante ex, nec convallis velit accumsan a. In sit amet molestie enim. Donec in mattis est, in congue felis. Proin felis est, volutpat consectetur dictum vitae, interdum a nisl. Aenean consectetur at odio non luctus. 
+            </p>
         </div>
     </body>
 </html>
