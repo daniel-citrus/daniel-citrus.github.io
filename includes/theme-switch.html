@@ -11,14 +11,17 @@
 
             if (get_local_style() === 'null') {
                 set_local_style('light');
+                update_theme('light');
             }
 
             sw.addEventListener('click', () => {
                 if (get_local_style() === 'light') {
                     set_local_style('dark');
+                    update_theme('dark');
                 }
                 else {
                     set_local_style('light');
+                    update_theme('light');
                 }
             })
         }
@@ -29,6 +32,13 @@
 
         function set_local_style(style) {
             localStorage.setItem('style', style);
+        }
+
+        /* Update current page's theme based on the theme set in local storage */
+        function update_theme(theme) {
+            let this_theme = document.getElementById('theme-switcher-id');
+
+            this_theme.href = `../themes/${theme}.css`;
         }
     </script>
     <style>
