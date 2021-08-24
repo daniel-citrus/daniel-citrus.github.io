@@ -1,46 +1,58 @@
 <html>
-    <link href="/css/test.css" type="text/css" rel="stylesheet">
-    <link href="" type="text/css" rel="stylesheet" id="theme-switcher-id">
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            initialize_theme_switch();
-        })
+    <head>
+        <link href="" rel="stylesheet" id="theme-switcher-id"/>
+        <link href="/css/styles.css" type="text/css" rel="stylesheet">
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                initialize_theme_switch();
+            })
+            
+            /*
+                Initialize event listener for theme switch.
+                Loads the appropriate theme based on localStorage.
+                Default: Light Setting
+            */
+            function initialize_theme_switch () {
+                let sw = document.getElementById('theme-switch');
+                let light = 'light';
+                let dark = 'dark';
 
-        function initialize_theme_switch () {
-            let sw = document.getElementById('theme-switch');
-
-            if (get_local_style() === 'null') {
-                set_local_style('light');
-                update_theme('light');
-            }
-
-            sw.addEventListener('click', () => {
-                if (get_local_style() === 'light') {
-                    set_local_style('dark');
-                    update_theme('dark');
+                if (get_local_style() === 'null') {
+                    set_local_style(dark);
+                    update_theme(dark);
                 }
                 else {
-                    set_local_style('light');
-                    update_theme('light');
+                    set_local_style(light);
+                    update_theme(light);
                 }
-            })
-        }
-
-        function get_local_style() {
-            return localStorage.getItem('style');
-        }
-
-        function set_local_style(style) {
-            localStorage.setItem('style', style);
-        }
-
-        /* Update current page's theme based on the theme set in local storage */
-        function update_theme(theme) {
-            let this_theme = document.getElementById('theme-switcher-id');
-
-            this_theme.href = `/themes/${theme}.css`;
-        }
-    </script>
+    
+                sw.addEventListener('click', () => {
+                    if (get_local_style() === light) {
+                        set_local_style(dark);
+                        update_theme(dark);
+                    }
+                    else {
+                        set_local_style(light);
+                        update_theme(light);
+                    }
+                })
+            }
+    
+            function get_local_style() {
+                return localStorage.getItem('style');
+            }
+    
+            function set_local_style(style) {
+                localStorage.setItem('style', style);
+            }
+    
+            /* Update current page's theme based on the theme set in local storage */
+            function update_theme(theme) {
+                let this_theme = document.getElementById('theme-switcher-id');
+                this_theme.href = `../css/themes/${theme}.css`;
+            }
+        </script>
+    </head>
     <style>
         #theme-switch {
             height: 50px;
@@ -87,6 +99,7 @@
                 Curabitur et quam eget massa ultricies pulvinar. Aliquam id volutpat velit. Sed ut laoreet elit. Praesent sed urna vitae leo scelerisque luctus. Pellentesque et viverra purus. Maecenas consectetur malesuada leo a euismod. Aliquam at sapien mattis, rhoncus arcu in, tincidunt neque. Aenean eu sapien id sapien interdum dignissim sit amet in nisi. Donec ac orci hendrerit, tristique neque in, euismod ipsum. Vestibulum ac arcu orci. 
             </p>
             <p>
+                <a href="www.google.com">test</a>
                 Maecenas venenatis lectus eu dui cursus tincidunt. Fusce maximus eros turpis, vel fringilla nunc rutrum at. Vivamus eget urna in enim dignissim gravida. Mauris a faucibus lacus. Fusce ligula ex, venenatis at urna vestibulum, commodo vulputate lacus. Sed dapibus magna vel sem porttitor vulputate. Morbi dignissim ante ex, nec convallis velit accumsan a. In sit amet molestie enim. Donec in mattis est, in congue felis. Proin felis est, volutpat consectetur dictum vitae, interdum a nisl. Aenean consectetur at odio non luctus. 
             </p>
         </div>

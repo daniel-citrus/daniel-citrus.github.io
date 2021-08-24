@@ -194,7 +194,8 @@
 }
 
 a {
-    color: #7aa6da;
+    color: var(--link-color);
+    text-decoration: none;
 
     border: 2px solid transparent;
     margin: 0 0 0 0;
@@ -202,13 +203,14 @@ a {
 }
 
 a:hover, a:focus {
-    border: 2px solid orange;
     color: orange;
     text-decoration: none;
+
+    border: 2px solid orange;
 }
 
 body {
-    color: white;
+    color: var(--text-color, var(--light-primary-color));
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 
@@ -216,7 +218,7 @@ body {
     max-width: 1350px;
     padding: 0 35px;
 
-    background-color: #252525;
+    background-color: var(--back-color, var(--light-back-color));
 }
 
 footer {
