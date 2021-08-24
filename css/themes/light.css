@@ -1,18 +1,25 @@
 :root {
-    --back-color: white;
-    --primary-color: #252525;
+    --back-color: #ffffff;
+    --text-color: #252525;
     --link-color: #1515d1;
+    --link-hover-color: #7A5000;
 
-    --light-back-color: white;
-    --light-primary-color: #252525;
-    --light-link-color: #1515d1;
+    /* Default styling */
+    --light-back-color: var(--back-color);
+    --light-text-color: var(--text-color);
+    --light-link-color: var(--link-color);
+    --light-link-hover-color: var(--link-hover-color);
 }
 
 body {
     background-color: var(--back-color);
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 a {
     color: var(--link-color);
+}
+
+a:hover, a:focus {
+    color: var(--link-hover-color);
 }

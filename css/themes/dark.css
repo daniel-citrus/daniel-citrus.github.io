@@ -1,9 +1,15 @@
 :root {
-    --back-color: #252525;
+    --back-color: #1F1F1F;
     --text-color: white;
+    --link-color: #7aa6da;
+    --link-hover-color: #FFB224;
 }
 
 body {
     background-color: var(--back-color);
     color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
 }

@@ -1,3 +1,4 @@
+@import url('/themes/light.css'); /* Needed for default colors */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 #home-typewriter {
@@ -8,7 +9,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: 28px;
-    color: white;
+    color: var(--text-color, var(--light-primary-color));
 
     animation:  home-animated-text 2s steps(38) 1s 1 normal both,
                 animated-cursor 500ms steps(38) infinite;
@@ -21,7 +22,7 @@
     border-right: solid 2px rgba(255,165,0,.75);
     white-space: nowrap;
     overflow: hidden;
-    color: white;
+    color: var(--text-color, var(--light-text-color));
 
     animation:  about-animated-text .5s steps(8) 1s normal both,
                 animated-cursor 500ms steps(8) infinite;
@@ -34,7 +35,7 @@
     border-right: solid 2px rgba(255,165,0,.75);
     white-space: nowrap;
     overflow: hidden;
-    color: white;
+    color: var(--text-color, var(--light-text-color));
 
     animation:  resume-animated-text .3s steps(6) 1s normal both,
                 animated-cursor 500ms steps(6) infinite;
@@ -194,7 +195,7 @@
 }
 
 a {
-    color: var(--link-color);
+    color: var(--link-color, var(--light-link-color));
     text-decoration: none;
 
     border: 2px solid transparent;
@@ -203,14 +204,14 @@ a {
 }
 
 a:hover, a:focus {
-    color: orange;
+    color: var(--link-hover-color, var(--light-link-hover-color));
     text-decoration: none;
 
-    border: 2px solid orange;
+    border: 2px solid var(--link-hover-color, var(--light-link-hover-color));
 }
 
 body {
-    color: var(--text-color, var(--light-primary-color));
+    color: var(--text-color, var(--light-text-color));
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 
@@ -222,7 +223,7 @@ body {
 }
 
 footer {
-    color: white;
+    color: var(--text-color, var(--light-text-color));
     font-size: 10px;
 
     text-align: center;
