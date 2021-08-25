@@ -2,17 +2,18 @@
 
 <html lang="en">
     <head>
-        <div id="libraries"></div>
         <!-- Stylesheet -->
         <link href="" rel="stylesheet" id="theme-switcher-id"/>
         <link href="/css/styles.css" type="text/css" rel="stylesheet">
+
         <!-- Loader -->
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script>
             $(function(){
                 $("#top-nav").load("/includes/top-nav.html");
                 $("#footer").load("/includes/footer.html");
-                $("#libraries").load("/includes/libraries.html");
+                $("#bootstrap-library").load("/includes/bootstrap-library.html");
+                $("#theme-switch").load("/includes/theme-switch.html");
             });
         </script>
 
@@ -23,10 +24,16 @@
             })
         </script>
 
+        <!-- Theme switcher-->
+        <script src="/js/theme-switch.js"></script>
+        <!-- Bootstrap library-->
+       <div id="bootstrap-library"></div>
+
         <title>About Me</title>
     </head>
     <body>
         <div id="top-nav"></div>
+        <div id="theme-switch"></div>
         <h1 id="about-typewriter">About Me</h1>
         <div id="bio">
             <h2>Bio</h2>
@@ -55,7 +62,7 @@
             <div class="flex">
                 <div class="flex-item">
                     I strongly believe in health and fitness. Bodyweight exercises ensure a healthy body while also providing
-                    functional "not only for looks" muscles. At the moment, I am enjoying the
+                    functional not only for looks muscles. At the moment, I am enjoying the
                     <a href="https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine">Recommended Routine</a> which
                     is a Calisthenics/Bodyweight routine designed for beginner through intermediate fitness enthusiasts.
                 </div>

@@ -2,25 +2,31 @@
 
 <html lang="en">
     <head>
-        <div id="libraries"></div>
         <!-- Stylesheet -->
         <link href="" rel="stylesheet" id="theme-switcher-id"/>
         <link href="/css/styles.css" type="text/css" rel="stylesheet">
+        
         <!-- Loader -->
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script>
             $(function(){
                 $("#top-nav").load("/includes/top-nav.html");
                 $("#footer").load("/includes/footer.html");
-                $("#libraries").load("/includes/libraries.html");
+                $("#bootstrap-library").load("/includes/bootstrap-library.html");
+                $("#theme-switch").load("/includes/theme-switch.html");
             });
         </script>
 
+        <!-- Theme switcher-->
+        <script src="/js/theme-switch.js"></script>
+        <!-- Bootstrap library-->
+        <div id="bootstrap-library"></div>
+        
         <title>Resume</title>
     </head>
     <body>
         <div id="top-nav"></div>
-
+        <div id="theme-switch"></div>
         <h1 id="resume-typewriter">Resume</h1>
         <iframe src="/media/Calvo, Daniel - Resume.pdf" id="resume"></iframe>
     </body>

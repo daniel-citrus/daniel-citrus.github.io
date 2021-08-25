@@ -99,6 +99,27 @@
     border: none;
 }
 
+#theme-switch {
+    height: 50px;
+    width: 125px;
+    border-radius: 50px;
+    display: none;
+}
+
+#theme-switch-orb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 50px;
+    width: 125px;
+    border-radius: 50px;
+
+    background-color: purple;
+}
+
 .center {
     text-align: center;
 }
