@@ -12,15 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
     Default: Light Setting
 */
 function initialize_theme_switch () {
-    let sw = document.getElementById('theme-switch');
     let light = 'light';
     let dark = 'dark';
-
+    
     /* 
         Initiate theme based on localStorage.
         First time visitors will be in light mode.
     */
-    if (get_local_style() === 'null') {
+    if (get_local_style() === 'null' || get_local_style() === light) {
         set_local_style(light);
         update_theme(light);
     }
@@ -28,6 +27,8 @@ function initialize_theme_switch () {
         set_local_style(dark);
         update_theme(dark);
     }
+
+    let sw = document.getElementById('theme-switch');
 
     /* Cause switch to alternate between light and dark */
     sw.addEventListener('click', () => {
