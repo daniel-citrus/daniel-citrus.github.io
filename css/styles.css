@@ -1,4 +1,3 @@
-@import url('/themes/light.css'); /* Needed for default colors */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 #home-typewriter {
@@ -9,7 +8,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: 28px;
-    color: var(--text-color, var(--light-primary-color));
+    color: var(--text-color, var(--light-text-color));
 
     animation:  home-animated-text 2s steps(38) 1s 1 normal both,
                 animated-cursor 500ms steps(38) infinite;
@@ -103,7 +102,6 @@
     height: 50px;
     width: 125px;
     border-radius: 50px;
-    display: none;
 }
 
 #theme-switch-orb {
@@ -146,8 +144,9 @@
 }
 
 .github-link {
-    background-image: url(/media/GitHub-Mark-32px.png);
+    background-image: var(--github-topnav-icon, var(--light-github-topnav-icon));
     background-repeat: no-repeat;
+    background-position: left center;
 
     background-size: 20px 20px;
     padding-left: 25px;
@@ -253,15 +252,7 @@ footer {
 }
 
 h1, h2, h3, h4{
-   color: white;
-}
-
-h1 {
-   text-align: center;
-}
-
-h3{
-    padding: 10px 0 0 0;
+   color: var(--text-color, var(--light-text-color));
 }
 
 h2 {
@@ -269,15 +260,4 @@ h2 {
    border-bottom: 1px solid #4D4F4D;
 
    padding: 2rem 0 0 0;
-}
-
-h4 {
-   text-align: left;
-
-   padding: 1rem 0 0 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
