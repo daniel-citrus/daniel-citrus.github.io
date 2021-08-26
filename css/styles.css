@@ -102,6 +102,11 @@
     height: 50px;
     width: 125px;
     border-radius: 50px;
+
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+
+    text-align: center;
 }
 
 #theme-switch-orb {
