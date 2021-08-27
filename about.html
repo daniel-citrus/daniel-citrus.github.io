@@ -6,12 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!-- Theme switcher-->
-        <script src="/js/theme-switch.js"></script>
-        
         <!-- Stylesheet -->
-        <link href="" rel="stylesheet" id="theme-switcher-id"/>
-        <link href="/css/styles.css" type="text/css" rel="stylesheet">
+        <link href="/css/styles.css" type="text/css" rel="stylesheet" id="theme-switcher-id"/>
 
         <!-- Loader -->
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -21,18 +17,16 @@
                 $("#footer").load("/includes/footer.html");
                 $("#bootstrap-library").load("/includes/bootstrap-library.html");
                 $("#theme-switch").load("/includes/theme-switch.html");
+                $("#fonts").load("/includes/fonts.html");
             });
         </script>
 
-        <!-- Initial focus -->
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                document.getElementsByID('home-btn').focus();
-            })
-        </script>
-
+        <!-- Theme switcher-->
+        <script src="/js/theme-switch.js"></script>
         <!-- Bootstrap library-->
-       <div id="bootstrap-library"></div>
+        <div id="bootstrap-library"></div>
+        <!-- Fonts -->
+        <div id="fonts"></div>
 
         <title>About Me</title>
     </head>
@@ -44,7 +38,7 @@
             <div id="theme-switch"></div>
         </div>
 
-        <h1 id="about-typewriter">About Me</h1>
+        <div id="about-typewriter" class="type-writer">About Me</div>
         <div id="bio">
             <h2>Bio</h2>
             <p>

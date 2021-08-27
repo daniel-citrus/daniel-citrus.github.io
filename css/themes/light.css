@@ -4,16 +4,6 @@
     --link-color: #1515d1;
     --link-hover-color: #7A5000;
     --github-icon: url(/media/icons/GitHub-Mark-32px-black.png);
-
-    /* 
-        Default Styling
-        For first time visitors, main CSS will default to the values defined below.
-    */
-    --light-back-color: var(--back-color);
-    --light-text-color: var(--text-color);
-    --light-link-color: var(--link-color);
-    --light-link-hover-color: var(--link-hover-color);
-    --light-github-icon: var(--github-icon);
 }
 
 a {

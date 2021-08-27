@@ -1,42 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 #home-typewriter {
-    text-align: center;
-    margin: 80px auto 10px auto;
-    width: 1350px;
-    border-right: solid 2px rgba(255,165,0,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 28px;
-    color: var(--text-color);
-
-    animation:  home-animated-text 2s steps(38) 1s 1 normal both,
+    animation:  home-animated-text 3s steps(38) 1s 1 normal both,
                 animated-cursor 500ms steps(38) infinite;
 }
 
 #about-typewriter {
-    text-align: center;
-    margin: 80px auto 10px auto;
-    width: 1350px;
-    border-right: solid 2px rgba(255,165,0,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    color: var(--text-color);
-
-    animation:  about-animated-text .5s steps(8) 1s normal both,
+    animation:  about-animated-text .7s steps(8) 1s normal both,
                 animated-cursor 500ms steps(8) infinite;
 }
 
 #resume-typewriter {
-    text-align: center;
-    margin: 80px auto 10px auto;
-    width: 1350px;
-    border-right: solid 2px rgba(255,165,0,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    color: var(--text-color);
-
-    animation:  resume-animated-text .3s steps(6) 1s normal both,
+    animation:  resume-animated-text .4s steps(6) 1s normal both,
                 animated-cursor 500ms steps(6) infinite;
 }
 
@@ -47,7 +22,7 @@
       }
   
     to {
-          width: 640px;
+          width: 664px;
       }
   }
 
@@ -57,7 +32,7 @@
     }
 
   to {
-        width: 185px;
+        width: 142px;
     }
 }
 
@@ -67,7 +42,7 @@
     }
 
   to {
-        width: 140px;
+        width: 110px;
     }
 }
 
@@ -103,7 +78,6 @@
     width: 125px;
     border-radius: 50px;
 
-    font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 
     text-align: center;
@@ -197,9 +171,23 @@
 
 .top-nav {
     font-size: 20px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Open Sans', sans-serif;
     margin: 5px 0 0 0;
     padding: 0 0 25px 0;
+}
+
+.type-writer {
+    text-align: center;
+    color: var(--text-color);
+
+    font-family: 'Inconsolata', monospace;
+    font-size: 35px;
+
+    margin: 80px auto 10px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    border-right: solid 2px rgba(255,165,0,.75);
 }
 
 .main-menu {
@@ -228,15 +216,15 @@ a:hover, a:focus {
 
 body {
     color: var(--text-color);
-    font-family: 'Source Code Pro', monospace;
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 
     margin: 0 auto;
     max-width: 1350px;
     padding: 0 35px;
 
     background-color: var(--back-color);
-    transition-duration: .1s;
+    transition-duration: .06s;
 }
 
 footer {
@@ -249,7 +237,8 @@ footer {
 }
 
 h1, h2, h3, h4{
-   color: var(--text-color);
+    font-family: 'Nunito', sans-serif;
+    color: var(--text-color);
 }
 
 h2 {

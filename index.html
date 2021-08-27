@@ -6,27 +6,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <!-- Theme switcher-->
-        <script src="/js/theme-switch.js"></script>
-
-        <!-- Stylesheet -->
-        <link href="" rel="stylesheet" id="theme-switcher-id"/>
-        <link href="/css/styles.css" type="text/css" rel="stylesheet">
-
         <!-- Loader -->
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
+        <script rel="preload">
             $(function(){
                 $("#footer").load("/includes/footer.html");
                 $("#libraries").load("/includes/libraries.html");
                 $("#theme-switch").load("/includes/theme-switch.html");
+                $("#fonts").load("/includes/fonts.html");
             });
         </script>
 
-        <script src="js/first-focus.js"></script>
+        <!-- Theme switcher-->
+        <script src="/js/theme-switch.js"></script>
+
+        <!-- Stylesheet -->
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
 
         <!-- Bootstrap library-->
         <div id="bootstrap-library"></div>
+        <!-- Fonts -->
+        <div id="fonts"></div>
 
         <title>Daniel's Webpage</title>
     </head>
@@ -35,9 +35,7 @@
             <div id="theme-switch"></div>
         </div>
 
-        <div id="home-typewriter">
-            My name is Daniel, welcome to my page!
-        </div>
+        <div id="home-typewriter" class="type-writer">My name is Daniel, welcome to my page!</div>
         <div class="main-menu flex-column" role="navigation">
             <a tabindex="1" href="index.html">Home</a>
             <a tabindex="2" href="about.html">About Me</a>
