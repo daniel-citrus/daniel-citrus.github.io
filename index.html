@@ -2,6 +2,13 @@
 
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Theme switcher-->
+        <script src="/js/theme-switch.js"></script>
+
         <!-- Stylesheet -->
         <link href="" rel="stylesheet" id="theme-switcher-id"/>
         <link href="/css/styles.css" type="text/css" rel="stylesheet">
@@ -18,27 +25,27 @@
 
         <script src="js/first-focus.js"></script>
 
-        <!-- Theme switcher-->
-        <script src="/js/theme-switch.js"></script>
         <!-- Bootstrap library-->
         <div id="bootstrap-library"></div>
 
         <title>Daniel's Webpage</title>
     </head>
     <body class="home-body">
-        <div class="flex">
-            <div id="theme-switch"></div>
-        </div>
-
-        <div id="home-typewriter">
-            My name is Daniel, welcome to my page!
-        </div>
-        <div class="main-menu" role="navigation">
-            <a tabindex="1" href="index.html">Home</a>
-            <a tabindex="2" href="about.html">About Me</a>
-            <a tabindex="4" class="home-resume-link" href="resume.html">Resume</a>
-            <a tabindex="5" class="home-github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a></li>
+        <div class="flex-column">
+            <div class="flex">
+                <div id="theme-switch"></div>
             </div>
+    
+            <div id="home-typewriter">
+                My name is Daniel, welcome to my page!
+            </div>
+            <div class="main-menu flex-column" role="navigation">
+                <a tabindex="1" href="index.html">Home</a>
+                <a tabindex="2" href="about.html">About Me</a>
+                <a tabindex="4" class="home-resume-link" href="resume.html">Resume</a>
+                <a tabindex="5" class="home-github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a></li>
+            </div>
+        </div>
     </body>
     <div id="footer"></div>
 </html>

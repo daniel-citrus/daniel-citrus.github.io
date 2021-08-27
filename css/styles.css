@@ -130,23 +130,17 @@
 .flex {
     display: flex;
     justify-content: flex-end;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .flex-item {
     flex: 1;
-}
-
-.gallery {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-.gallery img {
-    max-width: 1350px;
-    min-width: 400px;
-    height: auto;
 }
 
 .github-link {
@@ -209,15 +203,11 @@
 }
 
 .main-menu {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-
     list-style-type: none;
 
     margin: 0 auto;
     max-width: 1350px;
-    padding: 150px 35px 0px 35px;
+    padding: 150px 35px;
 }
 
 a {
