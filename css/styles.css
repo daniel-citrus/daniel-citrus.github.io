@@ -8,7 +8,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: 28px;
-    color: var(--text-color, var(--light-text-color));
+    color: var(--text-color);
 
     animation:  home-animated-text 2s steps(38) 1s 1 normal both,
                 animated-cursor 500ms steps(38) infinite;
@@ -21,7 +21,7 @@
     border-right: solid 2px rgba(255,165,0,.75);
     white-space: nowrap;
     overflow: hidden;
-    color: var(--text-color, var(--light-text-color));
+    color: var(--text-color);
 
     animation:  about-animated-text .5s steps(8) 1s normal both,
                 animated-cursor 500ms steps(8) infinite;
@@ -34,7 +34,7 @@
     border-right: solid 2px rgba(255,165,0,.75);
     white-space: nowrap;
     overflow: hidden;
-    color: var(--text-color, var(--light-text-color));
+    color: var(--text-color);
 
     animation:  resume-animated-text .3s steps(6) 1s normal both,
                 animated-cursor 500ms steps(6) infinite;
@@ -130,6 +130,7 @@
 .flex {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .flex-item {
@@ -149,7 +150,7 @@
 }
 
 .github-link {
-    background-image: var(--github-topnav-icon, var(--light-github-topnav-icon));
+    background-image: var(--github-icon);
     background-repeat: no-repeat;
     background-position: left center;
 
@@ -162,7 +163,7 @@
 }
 
 .home-github-link {
-    background-image: url(/media/GitHub-Mark-32px.png);
+    background-image: var(--github-icon);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 27px 27px;
@@ -171,7 +172,7 @@
 }
 
 .home-resume-link {
-    background-image: url(/media/resume-icon.png);
+    background-image: url(/media/icons/resume-icon.png);
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: left center;
@@ -180,7 +181,7 @@
 }
 
 .resume-link {
-    background-image: url(/media/resume-icon.png);
+    background-image: url(/media/icons/resume-icon.png);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: left center;
@@ -220,7 +221,7 @@
 }
 
 a {
-    color: var(--link-color, var(--light-link-color));
+    color: var(--link-color);
     text-decoration: none;
 
     border: 2px solid transparent;
@@ -229,14 +230,14 @@ a {
 }
 
 a:hover, a:focus {
-    color: var(--link-hover-color, var(--light-link-hover-color));
+    color: var(--link-hover-color);
     text-decoration: none;
 
-    border: 2px solid var(--link-hover-color, var(--light-link-hover-color));
+    border: 2px solid var(--link-hover-color);
 }
 
 body {
-    color: var(--text-color, var(--light-text-color));
+    color: var(--text-color);
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 
@@ -244,11 +245,12 @@ body {
     max-width: 1350px;
     padding: 0 35px;
 
-    background-color: var(--back-color, var(--light-back-color));
+    background-color: var(--back-color);
+    transition-duration: .1s;
 }
 
 footer {
-    color: var(--text-color, var(--light-text-color));
+    color: var(--text-color);
     font-size: 10px;
 
     text-align: center;
@@ -257,7 +259,7 @@ footer {
 }
 
 h1, h2, h3, h4{
-   color: var(--text-color, var(--light-text-color));
+   color: var(--text-color);
 }
 
 h2 {

@@ -3,7 +3,7 @@
     --text-color: #ffffff;
     --link-color: #7aa6da;
     --link-hover-color: #FFB224;
-    --github-topnav-icon: url(/media/GitHub-Mark-32px-white.png);
+    --github-icon: url(/media/icons/GitHub-Mark-32px-white.png);
 }
 
 a {
@@ -25,10 +25,19 @@ h1, h2, h3, h4{
 }
 
 .github-link {
-    background-image: var(--github-topnav-icon);
+    background-image: var(--github-icon);
     background-repeat: no-repeat;
     background-position: left center;
 
     background-size: 20px 20px;
     padding-left: 25px;
+}
+
+.home-github-link {
+    background-image: var(--github-icon);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 27px 27px;
+    
+    padding-left: 35px;
 }
