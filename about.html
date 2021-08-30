@@ -7,11 +7,15 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <!-- Stylesheet -->
-        <link href="/css/styles.css" type="text/css" rel="stylesheet" id="theme-switcher-id"/>
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
+        <!-- Bootstrap library-->
+        <div id="bootstrap-library"></div>
+        <!-- Fonts -->
+        <div id="fonts"></div>
 
         <!-- Loader -->
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
+        <script rel="preload" src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script rel="preload">
             $(function(){
                 $("#top-nav").load("/includes/top-nav.html");
                 $("#footer").load("/includes/footer.html");
@@ -23,10 +27,6 @@
 
         <!-- Theme switcher-->
         <script src="/js/theme-switch.js"></script>
-        <!-- Bootstrap library-->
-        <div id="bootstrap-library"></div>
-        <!-- Fonts -->
-        <div id="fonts"></div>
 
         <title>About Me</title>
     </head>
@@ -75,5 +75,6 @@
                 </div>
             </div>
         </div>
+    </body>
     <div id="footer"></div>
 </html>

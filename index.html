@@ -6,8 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <!-- Stylesheet -->
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
+        <!-- Bootstrap library-->
+        <div id="bootstrap-library"></div>
+        <!-- Fonts -->
+        <div id="fonts"></div>
+        
         <!-- Loader -->
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script rel="preload" src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script rel="preload">
             $(function(){
                 $("#footer").load("/includes/footer.html");
@@ -19,14 +26,6 @@
 
         <!-- Theme switcher-->
         <script src="/js/theme-switch.js"></script>
-
-        <!-- Stylesheet -->
-        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
-
-        <!-- Bootstrap library-->
-        <div id="bootstrap-library"></div>
-        <!-- Fonts -->
-        <div id="fonts"></div>
 
         <title>Daniel's Webpage</title>
     </head>

@@ -4,7 +4,13 @@
     --link-color: #1515d1;
     --link-hover-color: #7A5000;
     --github-icon: url(/media/icons/GitHub-Mark-32px-black.png);
+    --theme-switch-icon: url(/media/icons/sun-Freepik.png);
 }
+
+#theme-switch {
+    background-image: var(--theme-switch-icon);
+}
+
 
 a {
     color: var(--link-color);
