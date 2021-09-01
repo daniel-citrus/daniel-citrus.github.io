@@ -116,10 +116,6 @@
     padding-left: 25px;
 }
 
-.home-body {
-    font-size: 30px;
-}
-
 .home-github-link {
     background-image: var(--github-icon);
     background-repeat: no-repeat;
@@ -182,14 +178,8 @@
 
 .main-menu {
     list-style-type: none;
-
-    margin: 0 auto;
-    max-width: 1350px;
+    font-size: 30px;
     padding: 150px 35px;
-}
-
-.no-fouc {
-    display: none;
 }
 
 a {
@@ -215,7 +205,7 @@ body {
 
     margin: 0 auto;
     max-width: 1350px;
-    padding: 0 35px;
+    padding: 0 0;
 
     background-color: var(--back-color);
     transition-duration: .1s;
