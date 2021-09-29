@@ -203,8 +203,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 
-    margin: 0 auto;
-    max-width: 1350px;
+    margin: 10px auto;
+    max-width: 1150px;
     padding: 0 0;
 
     background-color: var(--back-color);
