@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <link href="/css/styles.css" type="text/css" rel="stylesheet">
         <!-- Stylesheet -->
-        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
-        <!-- Bootstrap library-->
-        <div id="bootstrap-library"></div>
-        <!-- Fonts -->
-        <div id="fonts"></div>
-
-        <!-- Loader -->
-        <script rel="preload" src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script rel="preload">
-            $(function(){
-                $("#top-nav").load("/includes/top-nav.html");
-                $("#footer").load("/includes/footer.html");
-                $("#theme-switch").load("/includes/theme-switch.html");
-                $("#fonts").load("/includes/fonts.html");
-            });
-        </script>
-
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Nunito, Open Sans, & Inconsolata -->
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
         <!-- Theme switcher-->
         <script src="/js/theme-switch.js"></script>
-        
+
         <title>Resume</title>
     </head>
-    
+
     <body>
         <div class="flex">
             <div class="flex-item">
-                <div id="top-nav"></div>
+                <div role="nagivation" class="top-nav">
+                    <a class="home-nav" tabindex="1" href="index.html">Home</a>
+                    <a class="home-nav" tabindex="2" href="about.html">About Me</a>
+                    <a class="home-nav" tabindex="3" href="resume.html" class="resume-link">Resume</a>
+                    <a class="home-nav" tabindex="4" href="https://github.com/dcalvo4-dev" target="_blank" class="github-link">GitHub</a>
+                </div>
             </div>
-            <div id="theme-switch"></div>
+            <div class="flex">
+                <div class="flex-item" id="theme-switch"></div>
+            </div>
         </div>
 
         <div id="resume-typewriter" class="type-writer">Resume</div>
         <iframe src="/media/Calvo, Daniel - Resume.pdf" id="resume"></iframe>
     </body>
 
-    <div id="footer"></div>
+    <footer>
+        Powered by <a href="https://github.com/">Github.com</a>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </html>

@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+        <link href="/css/styles.css" type="text/css" rel="stylesheet">
         <!-- Stylesheet -->
-        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id"/>
-        <!-- Bootstrap library-->
-        <div id="bootstrap-library"></div>
-        <!-- Fonts -->
-        <div id="fonts"></div>
-        
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" id="theme-switcher-id" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Nunito, Open Sans, & Inconsolata -->
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+
         <!-- Loader -->
         <script rel="preload" src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script rel="preload">
-            $(function(){
-                $("#top-nav").load("/includes/top-nav.html");
-                $("#footer").load("/includes/footer.html");
-                $("#libraries").load("/includes/libraries.html");
+            $(function () {
                 $("#theme-switch").load("/includes/theme-switch.html");
-                $("#fonts").load("/includes/fonts.html");
             });
         </script>
 
@@ -30,10 +29,12 @@
 
         <title>Daniel's Webpage</title>
     </head>
-    
+
     <body>
         <div class="flex">
-            <div id="theme-switch"></div>
+            <div class="flex">
+                <div class="flex-item" id="theme-switch"></div>
+            </div>
         </div>
 
         <div id="home-typewriter" class="type-writer">My name is Daniel, welcome to my page!</div>
@@ -41,9 +42,13 @@
             <a tabindex="1" href="index.html">Home</a>
             <a tabindex="2" href="about.html">About Me</a>
             <a tabindex="4" class="home-resume-link" href="resume.html">Resume</a>
-            <a tabindex="5" class="home-github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a></li>
+            <a tabindex="5" class="home-github-link" href="https://github.com/dcalvo4-dev" target="_blank">GitHub</a>
+            </li>
         </div>
     </body>
 
-    <div id="footer"></div>
+    <footer>
+        Powered by <a href="https://github.com/">Github.com</a>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </html>
