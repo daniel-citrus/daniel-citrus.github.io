@@ -171,6 +171,10 @@
     gap: 10px;
 }
 
+.test {
+    text-align: center;
+}
+
 .top-nav a {
     flex: 1 0 1;
 
