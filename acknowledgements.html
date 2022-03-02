@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>Acknowledgements</title>
 
-        <!-- Loader -->
-        <script rel="preload" src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script rel="preload">
-            $(function(){
-                $("#top-nav").load("/includes/top-nav.html");
-                $("#footer").load("/includes/footer.html");
-                $("#theme-switch").load("/includes/theme-switch.html");
-                $("#fonts").load("/includes/fonts.html");
-            });
-        </script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Stylesheets -->
+        <link href="/css/root.css" type="text/css" rel="stylesheet">
+        <link href="/css/themes/dark.css" type="text/css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Nunito, Open Sans, & Inconsolata -->
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito&family=Open+Sans&display=swap"
+            rel="stylesheet">
+        <title>Acknowledgements</title>
     </head>
-    
+
     <body>
         <div class="flex">
             <div class="flex-item">
@@ -23,13 +26,19 @@
             </div>
             <div id="theme-switch"></div>
         </div>
-        
-        <div class="flex">
-            <div class="flex-item">{Sun}, {Moon}, {Resume} designed by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <div class="flex-item">{Moon} designed by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <div class="flex-item">{Resume} designed by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        </div>
-    </body>
 
-    <div id="footer"></div>
+        <div class="flex">
+            <div class="flex-item">{Sun}, {Moon}, {Resume} designed by <a href="https://www.freepik.com"
+                    title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a></div>
+            <div class="flex-item">{Moon} designed by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div class="flex-item">{Resume} designed by <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </div>
+        <div id="footer"></div>
+
+        <!-- Theme switcher-->
+        <script defer src="/js/theme-switch.js"></script>
+    </body>
 </html>
