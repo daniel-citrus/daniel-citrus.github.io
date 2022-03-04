@@ -1,63 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-#home-typewriter {
-    animation:  home-animated-text 3s steps(38) 1s 1 normal both,
-                animated-cursor 500ms steps(38) infinite;
-}
-
-#about-typewriter {
-    animation:  about-animated-text .7s steps(8) 1s normal both,
-                animated-cursor 500ms steps(8) infinite;
-}
-
-#resume-typewriter {
-    animation:  resume-animated-text .4s steps(6) 1s normal both,
-                animated-cursor 500ms steps(6) infinite;
-}
-
-/* text animations */
-@keyframes home-animated-text{
-    from {
-          width: 0;
-      }
-  
-    to {
-          width: 664px;
-      }
-  }
-
-@keyframes about-animated-text{
-  from {
-        width: 0;
-    }
-
-  to {
-        width: 142px;
-    }
-}
-
-@keyframes resume-animated-text{
-  from {
-        width: 0;
-    }
-
-  to {
-        width: 110px;
-    }
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from {
-        border-right-color: rgba(255,165,0,.8);
-    }
-
-  to {
-        border-right-color: transparent;
-    }
-}
-
 #money_saver, #pushups_gif {
     width: 400px;
     height: auto;
@@ -106,7 +48,7 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 27px 27px;
-    
+
     padding-left: 35px;
 }
 
@@ -115,7 +57,7 @@
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: left center;
-    
+
     padding-left: 32px;
 }
 
@@ -166,7 +108,6 @@
 
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    margin: 5px 0 0 0;
 
     gap: 10px;
 }
@@ -180,20 +121,6 @@
 
     display: flex;
     align-items: center;
-}
-
-.type-writer {
-    text-align: center;
-    color: #252525;
-
-    font-family: 'Inconsolata', monospace;
-    font-size: 35px;
-
-    margin: 80px auto 10px auto;
-    white-space: nowrap;
-    overflow: hidden;
-    
-    border-right: solid 2px rgba(255,165,0,.75);
 }
 
 .main-menu {
@@ -244,14 +171,36 @@ footer {
     margin: 350px auto 40px auto;
 }
 
-h1, h2, h3, h4, #about-type-writer{
+h1, h2, h3, h4 {
     font-family: 'Nunito', sans-serif;
     color: #252525;
 }
 
 h2 {
-   text-align: left;
-   border-bottom: 1px solid #4D4F4D;
+    text-align: left;
+    border-bottom: 1px solid #4D4F4D;
 
-   padding: 2rem 0 0 0;
+    padding: 2rem 0 0 0;
+}
+
+@media screen and (max-width: 445px) {
+    .top-container {
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        margin: 0 10px 0 0;
+    }
+
+    .top-nav {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+
+    body {
+        max-width: 350px;
+        padding: 10px;
+    }
+
+    #money_saver, #pushups_gif {
+        min-width: 300px;
+    }
 }
