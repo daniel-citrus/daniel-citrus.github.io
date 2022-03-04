@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 #money_saver, #pushups_gif {
-    width: 400px;
+    max-width: 500px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #resume {
@@ -28,6 +26,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50px 50px;
+}
+
+.description {
+    max-width: 500px;
 }
 
 .github-link {
@@ -64,6 +66,7 @@
 .interest {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .interest .description {
@@ -107,13 +110,9 @@
     justify-content: flex-start;
 
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
     gap: 10px;
-}
-
-.test {
-    text-align: center;
 }
 
 .top-nav a {
@@ -152,7 +151,7 @@ a:hover, a:focus {
 
 body {
     color: #252525;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 17px;
 
     margin: 10px auto;
@@ -171,16 +170,11 @@ footer {
     margin: 350px auto 40px auto;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Nunito', sans-serif;
-    color: #252525;
-}
-
 h2 {
-    text-align: left;
-    border-bottom: 1px solid #4D4F4D;
-
-    padding: 2rem 0 0 0;
+    border: .01em solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 @media screen and (max-width: 450px) {

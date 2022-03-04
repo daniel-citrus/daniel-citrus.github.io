@@ -25,8 +25,15 @@ body.dark-theme {
     color: var(--text-color);
 }
 
-body.dark-theme h1, h2, h3, h4, .type-writer, footer {
+body.dark-theme footer{
     color: var(--text-color);
+}
+
+body.dark-theme h2 {
+    border: .01em solid var(--text-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 body.dark-theme .github-link {
