@@ -183,7 +183,7 @@ h2 {
     padding: 2rem 0 0 0;
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 450px) {
     .top-container {
         flex-flow: column nowrap;
         align-items: flex-end;
