@@ -11,29 +11,9 @@ body.dark-theme #theme-switch {
     background-image: var(--theme-switch-icon);
 }
 
-body.dark-theme a {
-    color: var(--link-color);
-}
-
-body.dark-theme a:hover, a:focus {
-    color: var(--link-hover-color);
-    border: 2px solid var(--link-hover-color);
-}
-
 body.dark-theme {
     background-color: var(--back-color);
     color: var(--text-color);
-}
-
-body.dark-theme footer{
-    color: var(--text-color);
-}
-
-body.dark-theme h2 {
-    border: .01em solid var(--text-color);
-    border-top: none;
-    border-left: none;
-    border-right: none;
 }
 
 body.dark-theme .github-link {
@@ -52,4 +32,36 @@ body.dark-theme .home-github-link {
     background-size: 27px 27px;
     
     padding-left: 35px;
+}
+
+body.dark-theme .moon {
+    display: block;
+    
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+}
+
+body.dark-theme .sun {
+    display: none;
+}
+
+body.dark-theme a {
+    color: var(--link-color);
+}
+
+body.dark-theme a:hover, a:focus {
+    color: var(--link-hover-color);
+    border: 2px solid var(--link-hover-color);
+}
+
+body.dark-theme footer{
+    color: var(--text-color);
+}
+
+body.dark-theme h2 {
+    border: .01em solid var(--text-color);
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }

@@ -1,5 +1,5 @@
 let body = document.querySelector('body');
-let sw = document.getElementById('theme-switch');
+let sw = document.querySelector('.theme-switch');
 let style = localStorage.getItem('style');
 
 function enableDarkMode() {

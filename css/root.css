@@ -13,21 +13,6 @@
     border: none;
 }
 
-#theme-switch {
-    height: 55px;
-    width: 55px;
-    border-radius: 50px;
-
-    font-size: 15px;
-
-    text-align: center;
-
-    background-image: url(/media/icons/sun-Freepik.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 50px 50px;
-}
-
 .description {
     max-width: 500px;
 }
@@ -86,6 +71,13 @@
     padding-left: 20px;
 }
 
+.sun {
+    display: block;
+
+    height: 55px;
+    width: 55px;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -122,6 +114,12 @@
     align-items: center;
 }
 
+.theme-switch {
+    border-radius: 50px;
+    border: 1px transparent;
+    background-color: transparent;
+}
+
 .main-menu {
     list-style-type: none;
     font-size: 30px;
@@ -130,6 +128,10 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+}
+
+.moon {
+    display: none;
 }
 
 a {
