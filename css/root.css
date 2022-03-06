@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
 #money_saver, #pushups_gif {
     max-width: 500px;
     min-width: 250px;
@@ -25,10 +23,6 @@
 
     background-size: 20px 20px;
     padding-left: 25px;
-}
-
-.home#theme-switch {
-    margin: 0 0 0 auto;
 }
 
 .home-github-link {
@@ -79,33 +73,49 @@
     width: 55px;
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 120px;
-    height: 20px;
-}
-
 .text {
     position: relative;
     top: 50%;
 }
 
+.theme-switch {
+    border-radius: 50px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    padding: 10px 0 0 0;
+}
+
+.theme-switch::after {
+    content: 'Dark';
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
 .top-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
+    margin: 20px 0 50px 0;
+}
+
+.top-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 35px;
 }
 
 .top-nav {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-flow: row nowrap;
 
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 
-    gap: 10px;
+    gap: 35px;
+
+    list-style: none;
 }
 
 .top-nav a {
@@ -113,12 +123,6 @@
 
     display: flex;
     align-items: center;
-}
-
-.theme-switch {
-    border-radius: 50px;
-    border: 1px transparent;
-    background-color: transparent;
 }
 
 .main-menu {
@@ -131,8 +135,20 @@
     align-items: center;
 }
 
+.main-logo {
+    height: 100px;
+    width: 400px;
+    display: block;
+    border: 1px solid black;
+}
+
 .moon {
     display: none;
+}
+
+.nav-controls {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 a {
@@ -145,11 +161,16 @@ a {
     padding: 0 2px;
 }
 
-a:hover, a:focus {
+a:focus {
     color: #7A5000;
     text-decoration: none;
 
     border: 2px solid #7A5000;
+}
+
+a:hover {
+    color: #7A5000;
+    text-decoration: none;
 }
 
 body {
@@ -196,7 +217,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 450px) and (max-width: 1150px;) {
+@media screen and (min-width: 450px) and (max-width: 1170px) {
 
 
     body {
