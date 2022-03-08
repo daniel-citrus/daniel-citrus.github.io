@@ -53,6 +53,36 @@ body.dark-theme .theme-switch::after {
     color: var(--text-color);
 }
 
+body.dark-theme #nav-toggle span,
+body.dark-theme #nav-toggle span::before,
+body.dark-theme #nav-toggle span::after {
+    width: 28px;
+    height: 4px;
+    float: left;
+    display: block;
+    background: var(--text-color);
+    position: relative;
+    text-indent: -9000px;
+}
+
+body.dark-theme #nav-toggle span {
+    margin: 8px 0;
+}
+
+body.dark-theme #nav-toggle span::before,
+body.dark-theme #nav-toggle span::after {
+    content: '';
+    position: absolute;
+}
+
+body.dark-theme #nav-toggle span::before {
+    top: -8px;
+}
+
+body.dark-theme #nav-toggle span::after {
+    bottom: -8px;
+}
+
 body.dark-theme a {
     color: var(--link-color);
 }
