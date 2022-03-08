@@ -22,7 +22,6 @@ if (style === 'dark') {
 
 /* Cause switch to alternate between light and dark */
 sw.addEventListener('click', () => {
-    console.log('hello');
     style = localStorage.getItem('style');
 
     if (style === '') {
