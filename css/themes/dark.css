@@ -32,10 +32,6 @@ body.dark-theme .home-github-link {
 
 body.dark-theme .moon {
     display: block;
-
-    height: 55px;
-    width: 55px;
-    border-radius: 50px;
 }
 
 body.dark-theme .sun {
@@ -81,6 +77,36 @@ body.dark-theme #nav-toggle span::before {
 
 body.dark-theme #nav-toggle span::after {
     bottom: -8px;
+}
+
+body.dark-theme #nav-toggle span,
+body.dark-theme #nav-toggle span:before,
+body.dark-theme #nav-toggle span:after {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+body.dark-theme #nav-toggle.active span {
+    background-color: transparent;
+}
+
+body.dark-theme #nav-toggle.active span::before,
+body.dark-theme #nav-toggle.active span::after {
+    top: 0;
+}
+
+body.dark-theme #nav-toggle.active span:before {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+body.dark-theme #nav-toggle.active span::after {
+    transform: translateY(-10px) rotate(-45deg);
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    top: 10px;
 }
 
 body.dark-theme a {

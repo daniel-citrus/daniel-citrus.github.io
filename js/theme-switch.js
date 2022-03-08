@@ -1,6 +1,4 @@
 let body = document.querySelector('body');
-let sw = document.querySelector('.theme-switch');
-let style = localStorage.getItem('style');
 
 function enableDarkMode() {
     localStorage.setItem('style', 'dark');
@@ -12,6 +10,8 @@ function disableDarkMode() {
     body.classList.remove('dark-theme');
 }
 
+let style = localStorage.getItem('style');
+
 /* 
     Initiate theme based on localStorage.
     First time visitors will be in light mode.
@@ -19,6 +19,8 @@ function disableDarkMode() {
 if (style === 'dark') {
     enableDarkMode();
 }
+
+let sw = document.querySelector('.theme-switch');
 
 /* Cause switch to alternate between light and dark */
 sw.addEventListener('click', () => {
@@ -29,5 +31,16 @@ sw.addEventListener('click', () => {
     }
     else {
         disableDarkMode();
+    }
+});
+
+let nav_button = document.getElementById('nav-toggle');
+
+nav_button.addEventListener('click', () => {
+    if (nav_button.classList.contains('active')) {
+        nav_button.classList.remove('active');
+    }
+    else {
+        nav_button.classList.add('active');
     }
 });
