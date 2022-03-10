@@ -1,6 +1,7 @@
 :root {
     --back-color: #1F1F1F;
-    --text-color: #ffffff;
+    --header-color: white;
+    --text-color: #b3b3b3;
     --link-color: #7aa6da;
     --link-hover-color: #FFB224;
     --github-icon: url(/media/icons/GitHub-Mark-32px-white.png);
@@ -131,4 +132,12 @@ body.dark-theme h2 {
     border-top: none;
     border-left: none;
     border-right: none;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5 {
+    color: var(--header-color);
 }

@@ -1,5 +1,5 @@
 :root {
-    --fonts: "Lato", "Helvetica Neue", Arial, sans-serif;
+    --fonts: 'Open Sans','Helvetica Neue','Helvetica','Arial','sans-serif';
 }
 
 #interests {
@@ -224,7 +224,7 @@
 
 .main-logo {
     height: 100px;
-    width: 400px;
+    width: auto;
     display: block;
     border: 1px solid black;
 }
@@ -293,11 +293,23 @@ footer a {
     font-size: 10px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300;
+}
+
 h2 {
     border: .01em solid #252525;
     border-top: none;
     border-left: none;
     border-right: none;
+}
+
+p {
+    font-size: 1.125rem;
 }
 
 @media screen and (max-width: 647px) {
