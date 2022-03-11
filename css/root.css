@@ -1,5 +1,10 @@
 :root {
     --fonts: 'Open Sans','Helvetica Neue','Helvetica','Arial','sans-serif';
+    --background-color: #f5f5f5;
+    --secondary-color: #1D4072;
+    --link-hover-color: #724F1D;
+    --text-color: #575757;
+    --header-color: black;
 }
 
 #interests {
@@ -7,8 +12,7 @@
 }
 
 #money_saver, #pushups_gif {
-    max-width: 550px;
-    min-width: 250px;
+    min-width: 490px;
     height: 100%;
     width: 100%;
     display: block;
@@ -17,7 +21,7 @@
 #nav-panel {
     display: none;
     overflow: hidden;
-    background: #f5f5f5;
+    background: var(--background-color);
     width: 50%;
     top: 0;
     position: absolute;
@@ -115,24 +119,6 @@
     padding-left: 25px;
 }
 
-.home-github-link {
-    background-image: url(/media/icons/GitHub-Mark-32px-black.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 27px 27px;
-
-    padding-left: 35px;
-}
-
-.home-resume-link {
-    background-image: url(/media/icons/resume-icon.png);
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-    background-position: left center;
-
-    padding-left: 32px;
-}
-
 .interest {
     display: flex;
     flex-flow: row wrap;
@@ -212,6 +198,13 @@
     flex: 1 0 1;
 }
 
+.top-nav .active {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid var(--link-hover-color);
+}
+
 .main-menu {
     list-style-type: none;
     font-size: 30px;
@@ -226,7 +219,7 @@
     height: 100px;
     width: auto;
     display: block;
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 
 .moon {
@@ -243,31 +236,26 @@
 }
 
 a {
-    color: #1515d1;
+    color: var(--secondary-color);
     text-decoration: none;
-    font-size: 1.3rem;
     line-height: 1.3;
     font-weight: 400;
     border: 2px solid transparent;
-    border-radius: 7px;
-    margin: 0;
-    padding: 0 2px;
 }
 
 a:focus {
-    color: #7A5000;
+    color: var(--link-hover-color);
     text-decoration: none;
-
-    border: 2px solid #7A5000;
+    border: 2px solid var(--link-hover-color);
 }
 
 a:hover {
-    color: #7A5000;
+    color: var(--link-hover-color);
     text-decoration: none;
 }
 
 body {
-    color: #252525;
+    color: var(--text-color);
     font-weight: 400;
     font-family: var(--fonts);
     font-size: 1.3rem;
@@ -276,11 +264,11 @@ body {
     margin: 10px auto;
     max-width: 1050px;
 
-    background-color: #ffffff;
+    background-color: var(--background-color);
 }
 
 footer {
-    color: #252525;
+    color: var(--text-color);
     font-size: 10px;
     line-height: 1rem;
 
@@ -298,6 +286,7 @@ h2,
 h3,
 h4,
 h5 {
+    color: var(--header-color);
     font-weight: 300;
 }
 
@@ -337,6 +326,14 @@ p {
         flex-flow: column nowrap;
     }
 
+    #money_saver, #pushups_gif {
+        max-width: 490px;
+        min-width: 270px;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
     #nav-toggle {
         display: block;
         float: right;
@@ -354,6 +351,14 @@ p {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+    }
+
+    #money_saver, #pushups_gif {
+        max-width: 490px;
+        min-width: 490px;
+        height: 100%;
+        width: 100%;
+        display: block;
     }
 }
 
