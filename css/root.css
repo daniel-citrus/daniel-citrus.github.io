@@ -180,6 +180,8 @@
     flex-flow: row nowrap;
     align-items: center;
     gap: 35px;
+
+    margin-left: auto;
 }
 
 .top-nav {
