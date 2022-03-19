@@ -32,10 +32,31 @@
                         <a tabindex="3" href="resume.html" class="resume-link">Resume</a>
                     </li>
                     <li>
-                        <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank" class="github-link">GitHub</a>
+                        <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank"
+                            class="github-link">GitHub</a>
                     </li>
                 </ul>
-                <a id="nav-toggle" aria-roledescription="Top navigation toggle button"><span>test</span></a>
+
+                <a id="nav-toggle" aria-roledescription="Top navigation toggle button"><span>Toggle menu</span></a>
+
+                <div class="mobile-nav-bar">
+                    <ul class="mobile-nav-controls" aria-role="navigation">
+                        <li>
+                            <a tabindex="1" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a tabindex="2" href="about.html" class="active">About Me</a>
+                        </li>
+                        <li>
+                            <a tabindex="3" href="resume.html" class="resume-link">Resume</a>
+                        </li>
+                        <li>
+                            <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank"
+                                class="github-link">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
                 <button tabindex="5" class="theme-switch" aria-label="dark mode toggle">
                     <img src="/media/icons/sun-Freepik.png" class="sun">
                     <img src="/media/icons/newmoon-Freepik.png" class="moon">
@@ -43,15 +64,15 @@
             </div>
         </div>
 
-        <h1>About Me</h1>
+        <h1>Daniel Calvo</h1>
         <div id="bio">
             <h2>Bio</h2>
             <p>
-                Hello! My name is Daniel Calvo and I am a Computer Science Alumni from <a target="_blank"
+                I am a Computer Science Alumni from <a target="_blank"
                     href="https://en.wikipedia.org/wiki/Texas_A%26M_University%E2%80%93Commerce">
-                    Texas A&M University-Commerce</a>. I am currently a Data Analyst for Pacific Gas & Electric. At the
-                moment, my main responsibility is to assist the Risk Management
-                team in calculating Risk Spending Efficiency for the 2022 Wildfire Mitigation Plan.
+                    Texas A&M University-Commerce</a>. I am currently a Webmaster for the Hayward Unified School
+                District. My main responsibility is to maintain all 30+ websites under the district while also
+                supporting other webmasters.
             </p>
         </div>
         <div id="interests">
@@ -60,14 +81,14 @@
             <div class="interest">
                 <div class="description">
                     <p>
-                        I am an avid learner of finance and a habitual (but healthy) money saver. Currently, I enjoy simple
-                        investing and thorough budgeting in order to reach my ultimate goal of financial
-                        independence and retiring early or
+                        I am an avid learner of finance and a habitual money saver. I am passionate about simple index
+                        fund investing and thorough budgeting in order to reach my ultimate goal of Financial
+                        Independence and Retiring Early or
                         <span aria-hidden="true">&#128293;</span>
                         <a target="_blank"
                             href="https://www.investopedia.com/terms/f/financial-independence-retire-early-fire.asp">FIRE</a>
                         <span aria-hidden="true">&#128293;</span>.
-                    </p>
+
                 </div>
 
                 <img id="money_saver" src="/media/Saving_Money.jpg" alt="Coins being placed into a jar.">
@@ -76,13 +97,14 @@
             <h3 class="test">Fitness</h3>
             <div class="interest">
                 <div class="description">
-                    I strongly believe in health and fitness. Bodyweight exercises ensure a healthy body while also
-                    providing functional and not only for looks muscles. At the moment, I am enjoying the
-                    <a target="_blank"
-                        href="https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine">Recommended
-                        Routine</a>
-                    which is a Calisthenics/Bodyweight routine designed for beginner through intermediate fitness
-                    enthusiasts.
+                    <p>
+                        I strongly believe in health and fitness. Bodyweight exercises ensure a healthy body while also
+                        providing functional muscles. Check out the
+                        <a target="_blank"
+                            href="https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine">Recommended
+                            Routine</a>, a bodyweight exercise routine designed for beginner through intermediate
+                        fitness enthusiasts.
+                    </p>
                 </div>
                 <img id="pushups_gif" src="/media/pushups.gif" alt="A person doing pushups.">
             </div>
@@ -96,6 +118,7 @@
         </footer>
         <!-- Theme switcher-->
         <script defer src="/js/theme-switch.js"></script>
-    </body>
+        <!-- Mobile navigation-->
+        <script defer src="/js/mobile-nav.js"></script>
 
 </html>

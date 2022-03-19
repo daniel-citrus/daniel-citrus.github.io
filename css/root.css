@@ -222,6 +222,14 @@
     border: 1px solid transparent;
 }
 
+.mobile-nav-bar {
+    display: none;
+}
+
+.mobile-nav-controls {
+    list-style: none;
+}
+
 .moon {
     display: none;
 
