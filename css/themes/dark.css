@@ -1,5 +1,7 @@
 :root {
     --dark-back-color: #1F1F1F;
+    --dark-secondary-back-color: #121212;
+    --fonts: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
     --dark-secondary-color: #FFB224;
     --dark-header-color: white;
     --dark-text-color: #b3b3b3;
@@ -32,6 +34,10 @@ body.dark-theme .home-github-link {
     padding-left: 35px;
 }
 
+body.dark-theme .mobile-nav-bar {
+    background-color: var(--dark-secondary-back-color);
+}
+
 body.dark-theme .moon {
     display: block;
 }
@@ -46,7 +52,7 @@ body.dark-theme .theme-switch {
 
 body.dark-theme .theme-switch::after {
     content: 'Light';
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--fonts);
     font-weight: bold;
     color: var(--dark-text-color);
 }
