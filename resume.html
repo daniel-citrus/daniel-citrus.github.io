@@ -29,9 +29,31 @@
                         <a tabindex="3" href="resume.html" class="resume-link active">Resume</a>
                     </li>
                     <li>
-                        <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank" class="github-link">GitHub</a>
+                        <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank"
+                            class="github-link">GitHub</a>
                     </li>
                 </ul>
+
+                <a id="nav-toggle" aria-roledescription="Top navigation toggle button"><span>Toggle menu</span></a>
+
+                <div class="mobile-nav-bar">
+                    <ul class="mobile-nav-controls" aria-role="navigation">
+                        <li>
+                            <a tabindex="1" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a tabindex="2" href="about.html" class="active">About Me</a>
+                        </li>
+                        <li>
+                            <a tabindex="3" href="resume.html" class="resume-link">Resume</a>
+                        </li>
+                        <li>
+                            <a tabindex="4" href="https://github.com/daniel-citrus" target="_blank"
+                                class="github-link">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
                 <button tabindex="5" class="theme-switch" aria-label="dark mode toggle">
                     <img src="/media/icons/sun-Freepik.png" class="sun">
                     <img src="/media/icons/newmoon-Freepik.png" class="moon">
@@ -48,8 +70,10 @@
                     href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
         </footer>
-    
         <!-- Theme switcher-->
         <script defer src="/js/theme-switch.js"></script>
+        <!-- Mobile navigation-->
+        <script defer src="/js/mobile-nav.js"></script>
     </body>
+
 </html>

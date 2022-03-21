@@ -1,5 +1,7 @@
 :root {
     --dark-back-color: #1F1F1F;
+    --dark-secondary-back-color: #121212;
+    --fonts: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
     --dark-secondary-color: #FFB224;
     --dark-header-color: white;
     --dark-text-color: #b3b3b3;
@@ -32,6 +34,10 @@ body.dark-theme .home-github-link {
     padding-left: 35px;
 }
 
+body.dark-theme .mobile-nav-bar {
+    background-color: var(--dark-secondary-back-color);
+}
+
 body.dark-theme .moon {
     display: block;
 }
@@ -46,16 +52,16 @@ body.dark-theme .theme-switch {
 
 body.dark-theme .theme-switch::after {
     content: 'Light';
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--fonts);
     font-weight: bold;
     color: var(--dark-text-color);
 }
 
 body.dark-theme .top-nav .active {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 2px solid var(--dark-link-hover-color);    
+    border-top: 2px transparent;
+    border-left: 2px transparent;
+    border-right: 2px transparent;
+    border-bottom: 2px solid var(--dark-link-hover-color);
 }
 
 body.dark-theme #nav-toggle span,
@@ -124,7 +130,6 @@ body.dark-theme a {
 
 body.dark-theme a:focus {
     color: var(--dark-link-hover-color);
-    border: 2px solid var(--dark-link-hover-color);
 }
 
 body.dark-theme a:hover {
