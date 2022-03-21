@@ -1,0 +1,649 @@
+[33mcommit 28dc70e4e1201c274b482a698d03e00d4e565ea6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Sun Mar 20 15:18:16 2022 -0700
+
+    delete
+
+[33mcommit 5988248a7e481aa505335f06c81f4e857c9a8916[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Sun Mar 20 15:16:05 2022 -0700
+
+    Css Update
+
+[33mcommit 5e265f223e189365d388f346ee8e8b0545087f3f[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Sat Mar 19 13:31:05 2022 -0700
+
+    Implement mobile nav bar
+
+[33mcommit 236493f63c4cea9ccf8f55363f717d8ba02bdec5[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Sat Mar 19 01:12:37 2022 -0700
+
+    Mobile navigation
+
+[33mcommit 8fbc2fd37b001821a94d345275e1d0403c71fd48[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Fri Mar 18 13:00:59 2022 -0700
+
+    Top nav styling fix
+
+[33mcommit 83f200067dcdc44e1ec111e9069513d7e488e57a[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Mon Mar 14 10:28:49 2022 -0700
+
+    Clean up
+
+[33mcommit 863b1a9a6c6578c48dd82adeb141c555581201ec[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Fri Mar 11 10:46:05 2022 -0800
+
+    CSS Update
+
+[33mcommit ce1902b83fbaaf50d7a4ca57f5e1a5839ae2aace[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Thu Mar 10 17:00:14 2022 -0800
+
+    css update
+
+[33mcommit eb795b0263758dec8f4f275d9e0acf8877137b51[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Thu Mar 10 15:19:20 2022 -0800
+
+    deletes
+
+[33mcommit d69758ec8214e8b34eb096f00235f10a8fc132ca[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Thu Mar 10 15:16:10 2022 -0800
+
+    Theme update
+
+[33mcommit 21876f702b6763e549e1fce13c8a176e26b9f8ed[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Tue Mar 8 11:17:08 2022 -0800
+
+    Start nav panel
+
+[33mcommit 51c2c4edb633c52c87ac43a12d7f795af612a93d[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Tue Mar 8 09:18:49 2022 -0800
+
+    top nav toggle button
+
+[33mcommit f6caeaa813944a4fcc4a907df62052a6f613d94e[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Mon Mar 7 22:00:28 2022 -0800
+
+    Top nav burger button update
+
+[33mcommit c9cac5c2307ede5e4a50de8da5f85a578d0c8fa6[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Sun Mar 6 04:54:27 2022 -0800
+
+    Responsive CSS update
+
+[33mcommit e420fd04d5f868c9b41bfdcd6a103e54dc9529b5[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Sun Mar 6 00:32:26 2022 -0800
+
+    Top nav update
+
+[33mcommit 35b9d6272357ecde4e1f56660606b98cfe401908[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Sat Mar 5 13:30:09 2022 -0800
+
+    Update media query
+
+[33mcommit d8513a6f31bc42e15cd896430e427469166fb653[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Fri Mar 4 16:59:22 2022 -0800
+
+    Update theme switch
+
+[33mcommit c20800e342b56be3fd33339c92c81eadfc954f70[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Fri Mar 4 13:05:20 2022 -0800
+
+    Fix CSS
+
+[33mcommit 08d3bcb79b9b1d5e2eede0cc5d6431740101dcd2[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Fri Mar 4 11:37:31 2022 -0800
+
+    Quick fix to media query
+
+[33mcommit de719ebbd4b2664f099d7981c11a89c7b861b3b3[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Fri Mar 4 11:31:37 2022 -0800
+
+    320px screen compatibility
+
+[33mcommit 15c8a885612bca5926befe1c305177c934612103[m
+Author: Daniel <dandcalvo@gmail.com>
+Date:   Wed Mar 2 15:18:18 2022 -0800
+
+    Update theme switch
+
+[33mcommit 827940039482bd5cf75122269facf8a9d41f63ca[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Fri Feb 25 23:53:27 2022 -0800
+
+    Comment fix
+
+[33mcommit b5059035a09a7503a9ac596f12a96e10089e8756[m
+Author: Daniel Citrus <dandcalvo@gmail.com>
+Date:   Fri Feb 25 23:47:00 2022 -0800
+
+    Removed redundant tags and styling
+
+[33mcommit 7e554eb58542a57111cbf2074d5727ddcbbc6e1c[m
+Author: Daniel <dcalvo@leomail.tamuc.edu>
+Date:   Tue Feb 8 20:49:12 2022 -0800
+
+    Quick fix
+
+[33mcommit 4bf936776f57d8512114ff320f86c2a8f4f4538e[m
+Author: dcalvo4-dev <dandcalvo@gmail.com>
+Date:   Mon Dec 27 22:11:31 2021 -0800
+
+    Minor content and CSS update
+
+[33mcommit c455f54d334a507ef93a2b3668e8fa75f3965a16[m
+Author: Daniel <56971161+daniel-citrus@users.noreply.github.com>
+Date:   Tue Dec 7 13:51:43 2021 -0800
+
+    Broken link update
+
+[33mcommit 782aea1f8f4d8bcfd1c89e224838ea647f7541ad[m
+Author: Daniel <56971161+daniel-citrus@users.noreply.github.com>
+Date:   Tue Dec 7 13:46:21 2021 -0800
+
+    Update top-nav.html
+
+[33mcommit b9f6010f941983ff10ff50cabb1231d500d094bc[m
+Author: dcalvo4-dev <dandcalvo@gmail.com>
+Date:   Fri Oct 15 20:22:19 2021 -0700
+
+    Code clean up
+
+[33mcommit da5ec0c8b4966bd79d0ba5afef7a13cfc8e75867[m
+Author: dcalvo4-dev <dandcalvo@gmail.com>
+Date:   Fri Oct 15 20:03:27 2021 -0700
+
+    Prevent flash of unstyled content
+
+[33mcommit e9ce1a7d17641bc7a37e134c9ad6aa5d06d01682[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Oct 7 21:11:49 2021 -0700
+
+    Update resume file
+
+[33mcommit 885ca10e4d04d947c2bbb72c199736cf486ef266[m
+Author: dcalvo4-dev <dandcalvo@gmail.com>
+Date:   Wed Sep 29 18:58:15 2021 -0700
+
+    Removed un-needed Top Navigation
+
+[33mcommit 20d82bd76b4541ef7e8d613c4b77a2746826a588[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Sep 29 15:06:12 2021 -0700
+
+    Style update
+
+[33mcommit 46988c77e51ea56989872a563a4201bdbb0e2101[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Sep 29 14:13:28 2021 -0700
+
+    Style update
+
+[33mcommit f374cbf71e48547141297950980381088e92b59a[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Sep 29 14:09:11 2021 -0700
+
+    Code clean-up
+
+[33mcommit 61c19eb5b868db0c788464b0b842afb968103fa3[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Fri Sep 3 22:37:46 2021 -0700
+
+    Acknowledgements
+    
+    Started an attribute page to credit media designers.
+
+[33mcommit a7b4d1ce404f83310bcf2646782fe38fd2ba2857[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 31 21:16:15 2021 -0700
+
+    Margins
+    
+    Index.html margins should now match the other pages.
+
+[33mcommit 702f23432cff88e8337c8e1db6424dc1ce54d649[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 30 15:32:34 2021 -0700
+
+    Switch
+    
+    Updated switch icon.
+
+[33mcommit c43207e628c1e8ddc6e1ec3e7e42a3603a2ba2a3[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Fri Aug 27 15:30:37 2021 -0700
+
+    Switch
+    
+    I cleaned up the code and removed a lot of redundancies. I also uploaded 2 new icons for the theme switch.
+    
+    My newest issue is FOUC. I may have slowed down my load time because I have so many jquery loads. I need to find a better way to share headers/footers across all of the pages.
+    
+    Goal:
+    -Match index page margins with the rest of the pages.
+    -Optimize load times.
+
+[33mcommit 2cb81c6075bd646eb2f357c51bc7a871248eaeda[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 26 20:52:41 2021 -0700
+
+    Update index.html
+
+[33mcommit 0ad5118217ebaf7dc34676ce2248b8d70d02941c[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 26 20:51:30 2021 -0700
+
+    Index
+    
+    I cannot figure out why my home page has different margins compared to the other pages. I have tried playing around with the body margins, but I have had no luck. I will continue to play around with it.
+
+[33mcommit c0314018374684f332ccdc6803ea8b61d1700d07[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 26 20:23:19 2021 -0700
+
+    Clean up
+
+[33mcommit 0b486959139c6ae7d45604bc0f9d9788ac406894[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 26 19:03:35 2021 -0700
+
+    Update theme-switch.html
+
+[33mcommit 6d1696d252ae3ea4ae7a9e93923b5f848444ea09[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 25 19:39:52 2021 -0700
+
+    Switch
+    
+    The theme switch is now integrated into the top navigation using flexbox. I discovered that the margins on my index/home page do not match the rest of the pages. I am not sure what is causing this but I would like to fix it. Additionally, I would like to start animating the theme switch. I have an idea on what I would like already, I just need to create test model.
+
+[33mcommit a02f7e029a3c030d11d5b1f8c73dacbcf01fa876[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 25 15:13:09 2021 -0700
+
+    Update theme-switch.js
+
+[33mcommit 84fd6aa4f26d811194bb5a5a32578ea50f84fe87[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 25 12:56:50 2021 -0700
+
+    Switch
+
+[33mcommit 572949e5b191f1270a83c977b116d2e2dbb8bc71[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 24 21:57:18 2021 -0700
+
+    Switch
+
+[33mcommit a38843bfd2c6c2040239ad9d54810769e0ad98c6[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 24 15:51:26 2021 -0700
+
+    Switch
+    
+    Switch is now functional. I just need to insert the button to every page. I did my best in simplifying the CSS for light and dark, as well as cleaning up the javascript for the switch. Next time I will work on the button and click effects to make it presentable.
+
+[33mcommit 50019a5f718d78fd1c95963fbcd418ce7a102f30[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 24 11:57:54 2021 -0700
+
+    Switch
+    
+    Switch now works, I just need to clean up css.
+
+[33mcommit ae551e6446eca4f162f0ea0b930e7e3b40bfabcd[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 23 21:31:52 2021 -0700
+
+    Update about.html
+
+[33mcommit 9e1db11ec16e6897da1db78a1db6084e57ab879b[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 23 21:25:51 2021 -0700
+
+    Update theme-switch.html
+
+[33mcommit 8739032f14d8fc651d936cb7233c8d577b319ba5[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Fri Aug 20 18:27:08 2021 -0700
+
+    Theme switch
+
+[33mcommit cf9cae54e794775f285b678558f41a82eed8b611[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 19 15:29:10 2021 -0700
+
+    Local storage
+    
+    I discovered local storage today, I will try to find a much more discrete/private alternative.
+
+[33mcommit b9fff4da8eeb1f3010238423fe48b95bccd20f43[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 19 12:35:46 2021 -0700
+
+    Index css
+    
+    I went ahead and combined the homepage CSS file with the main CSS file. Have 2 separate style sheets will make styling very difficult for me.
+
+[33mcommit a2eb53a4af47f828560b60b8171a434aa02ec072[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 18 13:33:08 2021 -0700
+
+    Update theme-switch.html
+
+[33mcommit c38fb598623180a16c0f6f45ef17eda42ea3b79a[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 18 09:49:09 2021 -0700
+
+    Update theme-switch.html
+
+[33mcommit cdc7c78f45224c611edebd52dfa1925fb5bc0e12[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 17 19:05:34 2021 -0700
+
+    Update theme-switch.html
+
+[33mcommit a5fb71e3ccfd28a05d85f11ace9f5979f6a0b23c[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 17 19:01:29 2021 -0700
+
+    Theme switch
+    
+    Playing around with switches. I would like to create my own.
+
+[33mcommit 49660170639c29477f95030a44048a79ff12eb57[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 16 21:09:30 2021 -0700
+
+    Typewriter Update/Theme switch proto
+    
+    Updated my about page typewriter because the last letter in "About Me" was getting cut too short. I added a new typewriter for my Resume page for consistency.
+    
+    I also started a prototype for the theme switcher. I can't seem to get Bootstrap to load properly.
+    
+    For next time: Continue working on the theme switcher. Ideally the switch is concise. I think I will start with light and dark themes first. In the future I can transition over to multiple color themes to address the different kinds of color blindness.
+
+[33mcommit 9f01f701f93f3bfb7975208fe4bd84da055a798e[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 12 15:31:14 2021 -0700
+
+    Type writer
+
+[33mcommit 606fb7d1fe3f45a9615ac4f9e556fe22b3a0ce5e[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 12 14:33:45 2021 -0700
+
+    Typewriter
+
+[33mcommit b65d8829ecdb6a6882f58cdae4ade9f21f111d13[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 12 11:57:04 2021 -0700
+
+    Typewriter
+    
+    I have decided to add a typewriter animation on my main home page. I am still reading about animations.
+
+[33mcommit 13001239c0eec9f609fdbaf555bb9a499cd35b27[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 11 22:18:36 2021 -0700
+
+    Flex update
+    
+    I cleaned up my About page by removing my make-shift column formatting to layout the page contents. Before this I used tables to format my page, but I read that it is bad practice. After learning more about flexbox, I went ahead and re-wrote my code.
+    
+    For next time:
+    Ideally, I would really love to implement a simple theme changer with Javascript.
+
+[33mcommit 542763f8ccd9eb329d6833c62f0c07f629ce746b[m
+Merge: b4978ab 0f98d74
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 10 19:26:15 2021 -0700
+
+    Merge pull request #4 from dcalvo4-dev/revert-3-flex-columns
+    
+    Revert "Updating Flexboxes"
+
+[33mcommit 0f98d7445ea6632893c6fc1c087b44106cfe9f12[m
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 10 19:25:30 2021 -0700
+
+    Revert "Updating Flexboxes"
+
+[33mcommit b4978ab6b0e9457c8feafb4d8d0c2ff64e2da623[m
+Merge: b732a10 5ed33f8
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 10 19:20:48 2021 -0700
+
+    Merge pull request #3 from dcalvo4-dev/flex-columns
+    
+    Updating Flexboxes
+
+[33mcommit 5ed33f8defd626714c4d0f2f91321be3d0333b84[m
+Merge: a2f8c34 b732a10
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 10 19:19:07 2021 -0700
+
+    Merge branch 'main' into flex-columns
+
+[33mcommit b732a1017ddd9a08ccbfd90865c879292e1bf064[m
+Merge: 9677b09 ff22c83
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 10 19:06:55 2021 -0700
+
+    Merge pull request #2 from dcalvo4-dev/update-resume-page
+    
+    Resume Page Update
+
+[33mcommit ff22c8310ed90a823af433d40794180bd580e949[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 9 23:38:32 2021 -0700
+
+    Added a pdf viewer for my resume. I also began updating aria-albels and tabbing order to improve screen reader navigation.
+
+[33mcommit a2f8c346c2f8dd5da0e13dad6f0544e7d139bc15[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Fri Aug 6 15:29:52 2021 -0700
+
+    Updating Flexboxes
+    
+    I figured out a newer and cleaner way to use flex boxes to create page rows/columns. I have started the change.
+
+[33mcommit 9677b09f5231d5b2e7fcc672a6d6db7e65d97986[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Aug 5 11:48:03 2021 -0700
+
+    Removed table
+    
+    I removed the  table in the about me page as it was causing accessibility warnings.
+
+[33mcommit ee07183127782787ec623da21732d85d565a16ed[m
+Merge: 53c56e4 c687e94
+Author: Daniel Calvo <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 4 21:21:15 2021 -0700
+
+    Merge pull request #1 from dcalvo4-dev/update-photo-page
+    
+    update-photo-page
+
+[33mcommit c687e9400c94279dceb7bde3bdb14903a765ec63[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 4 21:20:19 2021 -0700
+
+    test
+
+[33mcommit 0431e06eab74141c1f38c5d7581f63e3fcf9f0ff[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Wed Aug 4 21:12:29 2021 -0700
+
+    commit
+
+[33mcommit a2ba6d82d4e2668ed0ee2f69157325b3fd86a1a9[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 22:33:59 2021 -0700
+
+    Update main index page
+
+[33mcommit 53c56e4826cdf02c104feca5674bafa3b804e5e6[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 20:58:35 2021 -0700
+
+    aria-label update
+
+[33mcommit 5f9f5a2d2dca6cf2fe0b76cf2da55e7a475ea70e[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 20:43:37 2021 -0700
+
+    c
+
+[33mcommit 57a17f3b317d1e26c0d49e010303d6cfdb4b9a02[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 20:30:49 2021 -0700
+
+    Commit
+
+[33mcommit 46350c6b3a91f1cfcfaaeae81d3d1745833a3ba6[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 20:28:33 2021 -0700
+
+    Commit
+
+[33mcommit 5b6353da51033d02b94c9a9a660082855b8280fa[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Tue Aug 3 10:42:21 2021 -0700
+
+    Update about.html
+
+[33mcommit 580212723507ed18dbad14a08f3d9fec9bdccdac[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 2 20:49:46 2021 -0700
+
+[33mcommit fd3c3d7991973de25e1bd8d522285f00ff9d53f1[m
+Merge: 5efac81 c5fa39e
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 2 20:45:29 2021 -0700
+
+    Merge branch 'main' of https://github.com/dcalvo4-dev/dcalvo4-dev.github.io
+
+[33mcommit c5fa39e1838ded680de4b4dccd47bed51b71a9b9[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 2 10:44:48 2021 -0700
+
+    Update about.html
+
+[33mcommit c50af305e9df7da87d2c58bfc2ae36b80d85b0d8[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 2 10:00:05 2021 -0700
+
+    Update about.html
+
+[33mcommit 93726e130b664a6c978783086019cc2eecaf89c6[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Mon Aug 2 09:56:47 2021 -0700
+
+    Update about.html
+
+[33mcommit 5efac81d7ae30d8c519a4150d55af38dbf8f6685[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Sat Jul 31 16:41:35 2021 -0700
+
+[33mcommit ccb3b1869f6d549381bf6102859fc23815d357ec[m
+Merge: 1790fe8 9872514
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Sat Jul 31 16:40:30 2021 -0700
+
+    Merge branch 'main' of https://github.com/dcalvo4-dev/dcalvo4-dev.github.io
+
+[33mcommit 1790fe8305defe1e5c484a79bc9b93b5781352ef[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Sat Jul 31 16:39:39 2021 -0700
+
+[33mcommit fc6b1607b4d3db5e5d16712bfb99abeeb9b35191[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Sat Jul 31 16:36:36 2021 -0700
+
+    Text quick edit
+
+[33mcommit 9872514422b684b1892d8551e10b8e862434f7a8[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Fri Jul 30 07:33:42 2021 -0700
+
+    Update about.html
+
+[33mcommit 93eabd0b5c40d82ffb9a0508bd5aced8e459e98e[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 22:53:22 2021 -0700
+
+    Resume and Github link icons added.
+
+[33mcommit bafddf69b6d4b9c04b7adadc094920d388b5752a[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 22:08:07 2021 -0700
+
+    Trigger rebuild
+
+[33mcommit 498616e79c4e2f4abe95f8145f00b1e5fbba47dc[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 18:40:59 2021 -0700
+
+    Testing github commits.
+
+[33mcommit 8c20d49f62a8ca3e71ce95bf8e28a1a298acd3b9[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 18:40:02 2021 -0700
+
+    commit
+
+[33mcommit 5906b24ee4de253eab39ea370d5bae100259c83d[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 18:24:28 2021 -0700
+
+    Quick fix
+
+[33mcommit 413b55cf84c6f3b081a4f18fa1b08dd3df11a975[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 18:13:42 2021 -0700
+
+    Updated scripts and added new .html files for top-nav/footer/includes to remove redundancy.
+
+[33mcommit a99ce6153b47b964eee3af6707598f0a5e4399d3[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 15:07:18 2021 -0700
+
+    Include Update
+    
+    Updated headers and footers. They are now included into each page instead of written into each one.
+
+[33mcommit e3a105e2385963916d0e50908dcc7a0e0238b88e[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 13:22:09 2021 -0700
+
+    Add files via upload
+
+[33mcommit 78e50718b8488e31e267fd0d712ea99b93926399[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 13:20:34 2021 -0700
+
+    Update and rename README.md to index.html
+
+[33mcommit b0fc5732ea33b0646e4e5526a6d4bcac4d6d0e86[m
+Author: dcalvo4-dev <56971161+dcalvo4-dev@users.noreply.github.com>
+Date:   Thu Jul 29 13:19:40 2021 -0700
+
+    Initial commit
