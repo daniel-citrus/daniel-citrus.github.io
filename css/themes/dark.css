@@ -40,6 +40,10 @@ body.dark-theme .moon {
     display: block;
 }
 
+body.dark-theme .project {
+    border: 1px solid white;
+}
+
 body.dark-theme .sun {
     display: none;
 }
@@ -55,7 +59,8 @@ body.dark-theme .theme-switch:after {
     color: var(--dark-text-color);
 }
 
-body.dark-theme .top-nav .active {
+body.dark-theme .top-nav .active,
+body.dark-theme .mobile-nav-bar .active {
     border-top: 2px transparent;
     border-left: 2px transparent;
     border-right: 2px transparent;
@@ -126,7 +131,7 @@ body.dark-theme a {
     color: var(--dark-link-color);
 }
 
-body.dark-theme a:focus {
+body.dark-theme a:focus-visible {
     color: var(--dark-link-hover-color);
 }
 
