@@ -1,0 +1,224 @@
+:root {
+    --font-fam: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --sketchpad-height: 600px;
+    --sketchpad-width: 600px;
+    --cell-row-count: 0;
+    /* Number of cells per row */
+    --cell-height: calc(calc(var(--sketchpad-height) / var(--cell-row-count)) - 2px);
+    --cell-width: calc(calc(var(--sketchpad-height) / var(--cell-row-count)) - 2px);
+    --color-primary: #FFA500;
+    --background-color: #181818;
+    --background-color-secondary: #202020;
+    --border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--font-fam);
+    text-align: center;
+    color: var(--color-primary);
+    background-color: #181818;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 9px 15px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background-color: var(--background-color);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+button.active {
+    background-color: var(--color-primary);
+    color: var(--background-color);
+}
+
+button:hover {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    color: black;
+}
+
+button.clear {
+    margin: 25px 0;
+}
+
+.cell {
+    height: var(--cell-height);
+    width: var(--cell-width);
+    background-color: rgb(255, 255, 255);
+    border: thin solid rgb(220, 220, 220);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.cell:hover {
+    border: 1px solid black;
+}
+
+.cell-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.colorWindow {
+    height: 36px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 2px;
+    border: 1px solid var(--color-primary);
+    margin-bottom: 10px;
+    transform: translateY(-10px);
+}
+
+.controlTop button {
+    margin: 25px 0;
+}
+
+.gridToggle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.gridWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 650px;
+    border-radius: var(--border-radius);
+    background-color: var(--background-color-secondary);
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.optionCard {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.optionControls {
+    background-color: var(--background-color-secondary);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.sketchPad {
+    display: flex;
+    width: var(--sketchpad-width);
+    height: var(--sketchpad-height);
+    flex-flow: column nowrap;
+    margin: 20px auto;
+    align-items: center;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.toggle {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 62px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    background-color: var(--background-color);
+    transition: background-color ease 0.3s;
+}
+
+.toggle:before {
+    content: "on off";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 25px;
+    height: 25px;
+    background: var(--background-color-secondary);
+    border: 1px solid var(--color-primary);
+    left: 2px;
+    top: 1.4px;
+    border-radius: 50%;
+    font: 10px/28px var(--font-fam);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: -22px;
+    word-spacing: 37px;
+    color: var(--color-primary);
+    white-space: nowrap;
+    transition: all cubic-bezier(0.4, 1.5, 0.7, 1) 0.4s;
+}
+
+.toggle:checked {
+    background-color: var(--background-color);
+}
+
+.toggle:checked:before {
+    left: 32px;
+}
+
+#backToProjects button {
+    width: 180px;
+}
+
+#colorPicker {
+    display: block;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(62, 166, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    width: 200%;
+    padding: 4px 8px;
+    height: 200%;
+    transform: translateX(-10px) translateY(-10px);
+}
+
+#rowCount {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 2px;
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    background: var(--color-primary);
+}

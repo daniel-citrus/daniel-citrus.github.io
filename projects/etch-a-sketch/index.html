@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <title>Etch-a-Sketch</title>
+    </head>
+
+    <body>
+        <div class="return">
+            <a id="backToProjects" href="../../projects.html"><button>Back to Projects</button></a>
+        </div>
+        <div class="header">Etch-a-Sketch</div>
+        <div class="main">
+            <div class="optionControls">
+                <div class="controlTop">
+                    <div class="optionCard">
+                        <div>Pen Color:</div>
+                        <div class="colorWindow">
+                            <input type="color" id="colorPicker" value="#000000">
+                        </div>
+                    </div>
+                    <button id="rainbow">Toggle Rainbow</button>
+                    <button id="shade">Toggle Shader</button>
+                    <button id="lightener">Toggle Lightener</button>
+                </div>
+                <div class="controlBottom">
+                    <!-- <div class="gridToggle">
+                        <div>Toggle Grid:</div>
+                        <div class="checkbox-btn">
+                            <input class="toggle" type="checkbox" checked />
+                        </div>
+                    </div> -->
+                    <div id="sizeSelector">
+                        <div id="output"></div>
+                        <input type="range" id="rowCount" name="row count" min="2" max="64" value="20" step="1">
+                    </div>
+                    <button class="clear">Clear</button>
+                </div>
+            </div>
+            <div class="gridWrapper">
+                <div class="sketchPad"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
