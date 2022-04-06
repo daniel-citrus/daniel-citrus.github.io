@@ -196,6 +196,12 @@ button.clear {
     left: 32px;
 }
 
+.return {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
 #backToProjects button {
     width: 180px;
 }
