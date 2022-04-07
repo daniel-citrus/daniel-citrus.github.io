@@ -19,6 +19,9 @@ let style = localStorage.getItem('style');
 if (style === '') {
     disableDarkMode();
 }
+else {
+    enableDarkMode();
+}
 
 let sw = document.querySelector('.theme-switch');
 
