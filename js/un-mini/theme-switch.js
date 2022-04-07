@@ -14,10 +14,10 @@ let style = localStorage.getItem('style');
 
 /* 
     Initiate theme based on localStorage.
-    First time visitors will be in light mode.
+    First time visitors will be in dark mode.
 */
-if (style === 'dark') {
-    enableDarkMode();
+if (style === '') {
+    disableDarkMode();
 }
 
 let sw = document.querySelector('.theme-switch');

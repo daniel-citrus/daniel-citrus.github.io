@@ -1,6 +1,6 @@
 :root {
-    --dark-back-color: #1f1f1f;
-    --dark-secondary-back-color: #121212;
+    --dark-back-color: #181818;
+    --dark-secondary-back-color: #202020;
     --fonts: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     --dark-secondary-color: #ffb224;
     --dark-header-color: #fff;
@@ -41,7 +41,15 @@ body.dark-theme .moon {
 }
 
 body.dark-theme .project {
-    border: 1px solid white;
+    background-color: var(--dark-secondary-back-color);
+}
+
+body.dark-theme .projects .title {
+    background-color: var(--dark-secondary-back-color);
+}
+
+body.dark-theme .projects .title:hover {
+    opacity: 0;
 }
 
 body.dark-theme .sun {
