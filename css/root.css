@@ -141,7 +141,7 @@
 }
 
 .theme-switch:after {
-    content: "Dark";
+    content: "Light";
     font-family: var(--fonts);
     font-weight: 700;
 }

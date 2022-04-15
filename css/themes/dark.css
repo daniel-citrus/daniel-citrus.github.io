@@ -61,7 +61,7 @@ body.dark-theme .theme-switch {
 }
 
 body.dark-theme .theme-switch:after {
-    content: "Light";
+    content: "Dark";
     font-family: var(--fonts);
     font-weight: 700;
     color: var(--dark-text-color);

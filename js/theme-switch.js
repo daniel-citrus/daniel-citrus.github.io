@@ -16,11 +16,10 @@ let style = localStorage.getItem('style');
     Initiate theme based on localStorage.
     First time visitors will be in dark mode.
 */
+
+enableDarkMode();
 if (style === '') {
     disableDarkMode();
-}
-else {
-    enableDarkMode();
 }
 
 let sw = document.querySelector('.theme-switch');
