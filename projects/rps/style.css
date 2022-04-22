@@ -90,7 +90,8 @@ button {
 }
 
 .game .player,
-.game .ai {
+.game .ai,
+.game .tie {
     animation-delay: 1.5s;
 }
 

@@ -18,9 +18,11 @@
     const scissors = document.querySelector('.game .controls .scissors');
     const boardPlayer = document.querySelector('.player .score');
     const boardComputer = document.querySelector('.ai .score');
+    const boardTie = document.querySelector('.tie .score');
 
     let playerScore = 0;
     let computerScore = 0;
+    let tie = 0;
 
     rock.addEventListener('click', () => playRound('rock'));
     paper.addEventListener('click', () => playRound('paper'));
@@ -30,9 +32,11 @@
     function initializeGame() {
         playerScore = 0;
         computerScore = 0;
+        tie = 0;
         boardPlayer.textContent = playerScore;
         boardComputer.textContent = computerScore;
-        matchStatus.textContent = ' ';
+        boardTie.textContent = tie;
+        matchStatus.textContent = '';
     }
 
     // Returns rock, paper, or scissors
@@ -76,6 +80,7 @@
         }
         else {
             displayMatchResult('tie');
+            boardTie.textContent = ++tie;
         }
 
         if (playerScore == 5) {
@@ -118,10 +123,10 @@
         endWindow.classList.remove('hidden')
 
         if (result === 'win') {
-            endPrompt.textContent = `Woohoo you won, Edgar!`;
+            endPrompt.textContent = `Woohoo you won!`;
         }
         else {
-            endPrompt.textContent = `Wahh wahhhh, you lost, Edgar.`;
+            endPrompt.textContent = `Uh oh, you lost.`;
         }
     }
 /* END PHASE 3: ENDING */
