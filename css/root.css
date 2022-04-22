@@ -310,13 +310,6 @@ h5 {
     font-weight: 300;
 }
 
-h2 {
-    border: 0.01em solid #252525;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
-
 p {
     font-size: 1.125rem;
 }
