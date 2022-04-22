@@ -34,32 +34,13 @@ button {
     background-color: black;
 }
 
-
-.paper {
-    background-image: url(/projects/rps/media/paper.png);
-    background-size: 100%;
-    height: 100px;
-    width: 100px;
-}
-
-.return {
+.ai,
+.player,
+.tie {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-}
-
-.rock {
-    background-image: url(/projects/rps/media/rock.png);
-    background-size: 100%;
-    height: 100px;
-    width: 100px;
-}
-
-.scissors {
-    background-image: url(/projects/rps/media/scissors.png);
-    background-size: 100%;
-    height: 100px;
-    width: 100px;
+    flex-flow: column nowrap;
+    align-items: center;
+    animation-delay: 1.5s;
 }
 
 .controls {
@@ -111,14 +92,16 @@ button {
     content: '\200b';
 }
 
-.game .player,
-.game .ai,
-.game .tie {
-    animation-delay: 1.5s;
-}
 
 .hidden {
     display: none;
+}
+
+.paper {
+    background-image: url(/projects/rps/media/paper.png);
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
 }
 
 .prompt {
@@ -129,6 +112,26 @@ button {
     box-sizing: border-box;
 }
 
+.return {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.rock {
+    background-image: url(/projects/rps/media/rock.png);
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.scissors {
+    background-image: url(/projects/rps/media/scissors.png);
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+}
+
 .score-board {
     margin: 50px 0;
     font-family: sans-serif;
@@ -137,13 +140,6 @@ button {
     justify-content: center;
     gap: 200px;
     font-size: 33px;
-}
-
-.score-board .player,
-.score-board .ai {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
 }
 
 .title {
