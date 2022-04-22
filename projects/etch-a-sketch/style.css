@@ -202,7 +202,7 @@ button.clear {
     justify-content: flex-end;
 }
 
-#backToProjects button {
+#backToProjects {
     width: 180px;
 }
 
