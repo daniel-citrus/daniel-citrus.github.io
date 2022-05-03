@@ -183,8 +183,9 @@
 }
 
 .main-logo {
-    height: 100px;
+    height: 300px;
     width: auto;
+    border-radius: 100%;
     display: block;
     border: 1px solid transparent;
 }
@@ -322,7 +323,7 @@ p {
     }
 
     .main-logo {
-        align-self: center;
+        margin: 0 auto;
     }
 
     .mobile-nav-bar.active {
@@ -364,7 +365,7 @@ p {
     }
 }
 
-@media screen and (min-width: 692px) and (max-width: 1049px) {
+@media screen and (min-width: 692px) and (max-width: 1190px) {
     .top-container {
         display: flex;
         flex-flow: column nowrap;
@@ -379,10 +380,13 @@ p {
         width: 100%;
         display: block;
     }
+
+    body {
+        margin: 0 auto;
+        padding: 0 25px;
+    }
 }
 
-@media screen and (max-width: 1190px) {
-    body {
-        margin: 10px 20px;
-    }
+@media screen and (min-width: 1190px) {
+    body {}
 }
