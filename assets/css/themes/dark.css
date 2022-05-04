@@ -158,9 +158,3 @@ body.dark-theme h4,
 body.dark-theme h5 {
     color: var(--dark-header-color);
 }
-
-body.dark-theme p {
-    background-color: var(--dark-secondary-back-color);
-    border-radius: 10px;
-    padding: 1.5em;
-}
