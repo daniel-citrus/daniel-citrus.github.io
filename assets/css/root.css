@@ -149,7 +149,7 @@
 .top-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 20px 0 50px;
 }
 
@@ -182,7 +182,7 @@
     border-bottom: 2px solid var(--link-hover-color);
 }
 
-.main-logo {
+.profile-picture {
     height: 300px;
     width: auto;
     border-radius: 100%;
