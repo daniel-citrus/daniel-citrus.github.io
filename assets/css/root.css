@@ -225,20 +225,22 @@
     width: 250px;
     background-color: var(--secondary-background-color);
     border-radius: 15px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.project.calc {
+    background-image: url(/assets/media/icons/calculator.png);
 }
 
 .project.eas {
     background-image: url(/assets/media/icons/rock-paper-scissors.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 200px;
 }
 
 .project.rps {
     background-image: url(/assets/media/icons/sketchbook.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 200px;
 }
 
 .projects {
