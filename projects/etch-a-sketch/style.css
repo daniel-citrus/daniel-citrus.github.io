@@ -18,7 +18,7 @@ a {
 
 body {
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 20px auto;
     font-size: 14px;
     font-weight: 700;
     font-family: var(--font-fam);
@@ -200,7 +200,6 @@ button.clear {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    margin: 20px 0 0 0;
 }
 
 #backToProjects {

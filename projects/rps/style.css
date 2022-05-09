@@ -5,8 +5,8 @@ a {
 }
 
 body {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1300px;
+    margin: 20px auto;
     font-family: sans-serif;
 }
 
@@ -116,7 +116,6 @@ button {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    margin: 20px 0 0 0;
 }
 
 .rock {
