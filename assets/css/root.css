@@ -330,6 +330,12 @@ p {
         display: block;
     }
 
+    .profile-picture {
+        height: 200px;
+        width: auto;
+        margin: 0 auto;
+    }
+
     .theme-switch {
         padding: 0;
     }
@@ -366,6 +372,10 @@ p {
 }
 
 @media screen and (min-width: 692px) and (max-width: 1190px) {
+    .profile-picture {
+        margin: 0 auto;
+    }
+
     .top-container {
         display: flex;
         flex-flow: column nowrap;
