@@ -255,6 +255,7 @@
     justify-content: center;
     align-items: center;
     transition: opacity .2s;
+    text-align: center;
 }
 
 .projects .title:hover {
@@ -337,6 +338,18 @@ p {
         margin: 0 auto;
     }
 
+    .projects {
+        justify-content: center;
+    }
+
+    .project,
+    .projects .title {
+        height: 150px;
+        width: 150px;
+        background-size: 150px;
+    }
+
+
     .theme-switch {
         padding: 0;
     }
@@ -370,11 +383,19 @@ p {
     body {
         margin: 10px 15px;
     }
+
+    h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 692px) and (max-width: 1190px) {
     .profile-picture {
         margin: 0 auto;
+    }
+    
+    .projects {
+        justify-content: center;
     }
 
     .top-container {
@@ -395,5 +416,9 @@ p {
     body {
         margin: 0 auto;
         padding: 0 25px;
+    }
+
+    h1 {
+        text-align: center;
     }
 }
