@@ -282,6 +282,15 @@ label[for=woodlands] a:active {
     justify-content: flex-end;
 }
 
+.sign-up {
+    display: flex;
+    flex-flow: column nowrap;
+    color: var(--primary-color);
+    overflow: initial;
+    padding: 0 20px;
+    font-family: roboto, sans-serif;
+}
+
 #backToProjects a {
     text-decoration: none;
 }
@@ -304,49 +313,38 @@ label[for=woodlands] a:active {
     background-color: var(--secondary-color);
 }
 
-.sign-up {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    color: var(--primary-color);
-    height: 100vh;
-    overflow: initial;
-    padding: 0 20px;
-    font-family: roboto, sans-serif;
-}
-
 #woodlands {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url("/projects/sign-up-form/assets/media/nature-small.jpg");
+    background-image: url("/assets/media/nature-large.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 @font-face {
     font-family: ubuntuCondensed;
-    src: url("/projects/sign-up-form/assets/fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf");
+    src: url("/assets/fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf");
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("/projects/sign-up-form/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+    src: url("/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 @font-face {
     font-family: "Press Start 2P";
-    src: url("/projects/sign-up-form/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+    src: url("/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
 }
 
 @font-face {
     font-family: "roboto";
-    src: url("/projects/sign-up-form/assets/fonts/Roboto/Roboto-Regular.ttf");
+    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @media only screen and (min-width: 640px) {
     #woodlands {
-        background-image: url("/projects/sign-up-form/assets/media/nature-medium.jpg");
+        background-image: url("/assets/media/nature-medium.jpg");
     }
 }
 
@@ -365,26 +363,31 @@ label[for=woodlands] a:active {
         border-radius: 0;
     }
 
-    .input-container {  
+    .input-container {
         flex-flow: row wrap;
-        max-width: 900px;
+        max-width: 875px;
     }
 
     .input-line {
         margin: 0 80px 25px 0px;
     }
 
+    .logo {
+        position: sticky;
+    }
+
     .logo img {
-        width: 10vw;
+        width: 8.5vw;
     }
 
     .logo-text {
-        font-size: 3vw;
+        font-size: 2.4vw;
     }
 
     .sign-up {
         background-color: #9dae9f0f;
         padding: 0;
+        width: 60vw;
     }
 
     .form-header {
@@ -398,12 +401,11 @@ label[for=woodlands] a:active {
     }
 
     #woodlands {
-        height: 100vh;
-        width: 55vw;
-        background-size: contain;
-        background-position-x: -43px;
-        min-width: 380px;
-        max-width: 750px;
+        height: auto;
+        width: 40vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: initial;
     }
 
     form button {
@@ -417,8 +419,14 @@ label[for=woodlands] a:active {
     }
 }
 
+@media only screen and (min-width: 1476px) {
+    #woodlands {
+        height: 100vh;
+    }
+}
+
 @media only screen and (min-width: 1920px) {
     #woodlands {
-        background-image: url("/projects/sign-up-form/assets/media/nature-large.jpg");
+        background-image: url("/assets/media/nature-large.jpg");
     }
 }
