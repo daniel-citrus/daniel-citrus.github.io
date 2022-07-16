@@ -317,34 +317,34 @@ label[for=woodlands] a:active {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url("/assets/media/nature-large.jpg");
+    background-image: url("/projects/sign-up-form/assets/media/nature-large.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 @font-face {
     font-family: ubuntuCondensed;
-    src: url("/assets/fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf");
+    src: url("/projects/sign-up-form/assets/fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf");
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+    src: url("/projects/sign-up-form/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
 }
 
 @font-face {
     font-family: "Press Start 2P";
-    src: url("/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+    src: url("/projects/sign-up-form/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
 }
 
 @font-face {
     font-family: "roboto";
-    src: url("/assets/fonts/Roboto/Roboto-Regular.ttf");
+    src: url("/projects/sign-up-form/assets/fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @media only screen and (min-width: 640px) {
     #woodlands {
-        background-image: url("/assets/media/nature-medium.jpg");
+        background-image: url("/projects/sign-up-form/assets/media/nature-medium.jpg");
     }
 }
 
@@ -427,6 +427,6 @@ label[for=woodlands] a:active {
 
 @media only screen and (min-width: 1920px) {
     #woodlands {
-        background-image: url("/assets/media/nature-large.jpg");
+        background-image: url("/projects/sign-up-form/assets/media/nature-large.jpg");
     }
 }
