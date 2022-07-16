@@ -221,8 +221,8 @@
 }
 
 .project, .projects .title {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: var(--secondary-background-color);
     border-radius: 15px;
 
@@ -237,6 +237,10 @@
 
 .project.eas {
     background-image: url(/assets/media/icons/rock-paper-scissors.png);
+}
+
+.project.form {
+    background-image: url(/assets/media/icons/form.png);
 }
 
 .project.rps {
@@ -338,10 +342,6 @@ p {
         margin: 0 auto;
     }
 
-    .projects {
-        justify-content: center;
-    }
-
     .project,
     .projects .title {
         height: 150px;
@@ -392,10 +392,6 @@ p {
 @media screen and (min-width: 692px) and (max-width: 1190px) {
     .profile-picture {
         margin: 0 auto;
-    }
-    
-    .projects {
-        justify-content: center;
     }
 
     .top-container {
