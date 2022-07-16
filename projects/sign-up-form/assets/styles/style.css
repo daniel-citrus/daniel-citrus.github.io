@@ -132,7 +132,6 @@ form span li::before {
     top: -1px;
     left: -14px;
     color: #b31010;
-    ;
     font-size: 14px;
 }
 
@@ -308,6 +307,7 @@ label[for=woodlands] a:active {
 .sign-up {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     color: var(--primary-color);
     height: 100vh;
     overflow: initial;
@@ -361,12 +361,11 @@ label[for=woodlands] a:active {
     }
 
     .inputs {
-        width: 100%;
         box-shadow: 0 3px 10px #00000036;
         border-radius: 0;
     }
 
-    .input-container {
+    .input-container {  
         flex-flow: row wrap;
         max-width: 900px;
     }
@@ -407,13 +406,10 @@ label[for=woodlands] a:active {
         max-width: 750px;
     }
 
-    form {
-        align-items: flex-start;
-    }
-
     form button {
         padding: 0px 40px;
         margin: 30px 40px 10px 40px;
+        align-self: flex-start;
     }
 
     label[for="woodlands"] {
