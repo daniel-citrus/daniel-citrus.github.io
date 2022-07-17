@@ -360,19 +360,18 @@ label[for=woodlands] a:active {
     .inputs {
         box-shadow: 0 3px 10px #00000036;
         border-radius: 0;
+        background-color: white;
     }
 
     .input-container {
         flex-flow: row wrap;
         max-width: 875px;
+        gap: 0 60px;
     }
 
-    .input-line {
-        margin: 0 80px 25px 0px;
-    }
-
-    .logo {
-        position: sticky;
+    .input-container,
+    .form-header {
+        max-width: 800px;
     }
 
     .logo img {
@@ -384,7 +383,7 @@ label[for=woodlands] a:active {
     }
 
     .sign-up {
-        background-color: #9dae9f0f;
+        background-color: #9dae9f05;
         padding: 0;
         width: 60vw;
     }
@@ -410,6 +409,13 @@ label[for=woodlands] a:active {
         padding: 0px 40px;
         margin: 30px 40px 10px 40px;
         align-self: flex-start;
+    }
+
+    form label+input[type=text],
+    form label+input[type=email],
+    form label+input[type=tel],
+    form label+input[type=password] {
+        width: 250px;
     }
 
     label[for="woodlands"] {
